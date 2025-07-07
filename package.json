@@ -2,6 +2,9 @@
   "name": "vscode_b2e",
   "type": "module",
   "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
