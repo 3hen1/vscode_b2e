@@ -33,5 +33,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
-          dir: dist
+          build_dir: dist
           token: ${{ secrets.GITHUB_TOKEN }}
