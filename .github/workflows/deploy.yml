@@ -41,6 +41,8 @@ jobs:
 
       - name: Build with Slidev
         run: pnpm run build
+        env:
+          BASE_URL: /vscode_b2e/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -20,6 +20,8 @@ drawings:
 transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
+# base path for GitHub Pages deployment
+base: /vscode_b2e/
 # open graph
 # seoMeta:
 #  ogImage: https://cover.sli.dev
