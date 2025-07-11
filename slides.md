@@ -1,11 +1,13 @@
 ---
-# You can also start simply with 'default'
-theme: seriph
+# 'default' 'apple-basic' 'seriph'
+theme: ./theme
+themeConfig:
+  primary: '#5d8392'
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN
 # some information about your slides (markdown enabled)
-title: Welcome to Slidev
+title: VSCode IDE from Beginner to Expert in Vibe Coding Era
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
@@ -25,53 +27,58 @@ base: /vscode_b2e/
 # open graph
 # seoMeta:
 #  ogImage: https://cover.sli.dev
+aspectRatio: 16/8.3
 ---
 
-# Welcome to Slidev
+# IDE Mastery: Integration & Usage  
 
-Presentation slides for developers
+VSCode IDE from Beginner to Expert
 
 <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
+  Press Space for next page <carbon:arrow-right animate-ping/>
 </div>
 
 <div class="abs-br m-6 text-xl">
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
     <carbon:edit />
   </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
+  <a href="https://3hen1.github.io/vscode_b2e/1" target="_blank" class="slidev-icon-btn">
+    <carbon:logo-github animate-bounce/>
   </a>
 </div>
 
+<style>
+.slidev-layout h1 {
+  font-size: 3.25rem !important; /* 75% of text-4xl (2.25rem) = 1.6875rem, but using 1.875rem for 75% of 2.5rem */
+}
+</style>
+
 <!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+目标客群：新的即将加入部门项目开发的 Java 、Go 工程师
+
+课程目的：新同事可快速上手部门 Java、Go 项目
 -->
 
 ---
 transition: fade-out
 ---
 
-# What is Slidev?
+# What is IDE?
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+An Integrated Development Environment (IDE) is a software application that provides comprehensive facilities for software development. 
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
+- 📝 **Primary Goal** - To boost programmer productivity by integrating and simplifying the development workflow.
+- 🎨 **Core Components** - Source Code Editor, Build Automation Tools, Debugger, Git
+- 🧑‍💻 **Other Common Features** - Refactoring Tools, Testing Tools, Plugins
+- 🤹 **Types and Evolution** - From command-line tools to multi-language, language-specific, and collaborative cloud-based environments.
+- 🎥 **Modern Trends** - Language Server Protocol, AI-Assisted Programming
 <br>
 <br>
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+> Read more about [2024 IDE Survey - Stack Overflow](https://survey.stackoverflow.co/2024/technology#1-integrated-development-environment)
 
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
--->
+
+
 
 <style>
 h1 {
@@ -86,7 +93,33 @@ h1 {
 </style>
 
 <!--
-Here is another comment.
+**1. 定义 (Definition)**
+集成开发环境（Integrated Development Environment, IDE）是一种软件应用程序，它将程序员进行软件开发所需的基本工具整合到一个图形用户界面（GUI）中，提供一个全面的开发环境。
+
+**2. 主要目标 (Primary Goal)**
+IDE 的核心目标是通过整合和简化开发流程来**提高程序员的生产力**。开发者无需在多个独立的工具（如文本编辑器、编译器、调试器）之间切换，所有操作都在一个统一的环境中完成，大大减少了配置和学习成本。
+
+**3. 核心组件 (Core Components)**
+一个典型的 IDE 通常包含以下几个关键部分：
+*   **源代码编辑器 (Source Code Editor):** 不仅仅是文本编辑，还提供**语法高亮**、**智能代码补全 (IntelliSense)**、代码折叠和自动格式化等功能。
+*   **构建自动化工具 (Build Automation Tools):** 集成了**编译器 (Compiler)** 或 **解释器 (Interpreter)**，允许开发者一键编译、链接和执行代码。
+*   **调试器 (Debugger):** 允许开发者设置**断点 (Breakpoints)**，单步执行代码，检查变量值和内存状态，从而高效地定位和修复错误。
+*   **版本控制系统集成 (Version Control Integration):** 通常内置了对 Git 等版本控制系统的支持，方便开发者进行代码提交、分支管理和历史追溯。
+
+**4. 其他常见功能 (Other Common Features)**
+*   **插件机制 
+*   **重构工具 (Refactoring Tools):** 帮助开发者安全地改进和重组现有代码，而不会改变其外部行为。
+*   **测试工具 (Testing Tools):** 集成单元测试框架，方便编写和运行测试用例。
+
+**5. 类型与发展 (Types and Evolution)**
+IDE 从早期的命令行工具集合演变而来，经历了多个阶段：
+*   **多语言 IDE:** 支持多种编程语言，如 Visual Studio Code, Eclipse, JetBrains 系列 (IntelliJ IDEA, PyCharm 等)。
+*   **特定语言 IDE:** 专为某一特定语言或平台设计，如 Xcode (用于 Apple 开发), IDLE (用于 Python)。
+*   **Web/云 IDE:** 基于浏览器或云端，无需本地安装，如 GitHub Codespaces, AWS Cloud9，支持协作编程。
+
+**6. 现代趋势 (Modern Trends)**
+*   **语言服务器协议 (Language Server Protocol, LSP):** 由微软提出，它将语言特定的功能（如代码补全、定义跳转）从编辑器中分离出来，使得任何编辑器都可以通过集成 LSP 来支持任何语言，极大地促进了生态发展。
+*   **AI 辅助编程 (AI-Assisted Programming):** 集成人工智能工具（如 GitHub Copilot），可以根据上下文自动生成代码片段甚至整个函数，进一步提升开发效率。
 -->
 
 ---
@@ -135,14 +168,111 @@ The title will be inferred from your slide content, or you can override it with 
 
 <Toc text-sm minDepth="1" maxDepth="2" />
 
+
+---
+layout: fact
+---
+
+| name | count |
+| ---- | ----- |
+| yyy  | 1000  |
+| sss  | 1200  |
+
+---
+layout: center
+---
+ 
+center layout
+
+| name | count |
+| ---- | ----- |
+| yyy  | 1000  |
+| sss  | 1200  |
+
+---
+layout: intro
+---
+
+# intro title
+
+short description
+
+author: xxx
+
+---
+layout: quote
+---
+
+> # this is quote
+> aa
+
+---
+layout: full
+---
+
+# full
+
+| name | count |
+| ---- | ----- |
+| yyy  | 1000  |
+| sss  | 1200  |
+
+---
+layout: section
+---
+
+this is section
+
+---
+layout: statement
+---
+
+this is statement
+
+---
+layout: two-cols-header
+---
+
+# This spans both
+
+::left::
+
+## Left
+
+This shows on the left
+
+- 1
+- 2
+- 3 
+
+::right::
+
+## Right
+
+This shows on the right
+
+- 1
+- 2
+- 3 
+
+---
+layout: iframe-left-fixed
+url: https://tauc.tplinkcloud.com/#/auth/login
+width: 1280
+height: 800
+scale: 0.3828
+---
+
+github
+
 ---
 layout: image-right
 image: https://cover.sli.dev
 ---
 
-# Code
+## Code
 
-Use code snippets and get the highlighting directly, and even types hover!
+<AutoFitText :max="200" :min="10" modelValue="Use code snippets and get the highlighting directly, and even types hover!"/>
 
 ```ts [filename-example.ts] {all|4|6|6-7|9|all} twoslash
 // TwoSlash enables TypeScript hover information
