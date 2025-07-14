@@ -2,7 +2,7 @@
 # 'default' 'apple-basic' 'seriph'
 theme: ./theme
 themeConfig:
-  primary: '#5d8392'
+  primary: "#5d8392"
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN
@@ -230,30 +230,64 @@ layout: statement
 this is statement
 
 ---
-layout: two-cols-header
+layout: two-cols-header-fixed
 ---
+
+<Transform :scale="0.8">
 
 # This spans both
 
+</Transform>
+
 ::left::
+
+<Transform :scale="0.6">
 
 ## Left
 
-This shows on the left
+</Transform>
 
-- 1
-- 2
-- 3 
+<v-clicks every="2">
+
+- Item 1.1
+- Item 1.2
+- Item 2.1
+- Item 2.2
+
+</v-clicks>
 
 ::right::
 
 ## Right
 
-This shows on the right
+<div v-click> visible after 1 click </div>
+<v-click at="+2"><div> visible after 3 clicks </div></v-click>
+<div v-click.hide="'-1'"> hidden after 2 clicks </div>
 
-- 1
-- 2
-- 3 
+```js {none|1|2}{at:'+5'}
+1  // highlighted after 7 clicks
+2  // highlighted after 8 clicks
+```
+
+---
+layout: image-left-fixed
+image: ./research/stackoverflow-dev-survey-2024-technology-most-popular-technologies-new-collab-tools-social.png
+---
+
+<IDEVoting />
+
+
+<!--
+# Integrated development environment
+
+Visual Studio Code is used by more than twice as many developers than its nearest (and related) alternative, Visual Studio.
+
+[Stackoverflow Survey](https://survey.stackoverflow.co/2024/technology#1-integrated-development-environment)
+
+
+-->
+
+
 
 ---
 layout: iframe-left-fixed
