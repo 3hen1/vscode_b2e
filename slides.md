@@ -5,7 +5,7 @@ themeConfig:
   primary: "#5d8392"
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN
+background: https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=en-US
 # some information about your slides (markdown enabled)
 title: VSCode IDE from Beginner to Expert in Vibe Coding Era
 info: |
@@ -154,7 +154,7 @@ IDE 从早期的命令行工具集合演变而来，经历了多个阶段：
 title: survey
 layout: image-left-fixed
 level: 2
-image: /images/stackoverflow-dev-survey-2024-technology-most-popular-technologies-new-collab-tools-social.png
+image: images/stackoverflow-dev-survey-2024-technology-most-popular-technologies-new-collab-tools-social.png
 transition: slide-left | slide-right
 ---
 
