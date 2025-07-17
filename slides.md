@@ -1032,16 +1032,16 @@ GitHub Copilot 是近年来最受关注的开发工具之一，它极大地改�
 
 # 6.2 GitHub Copilot: Customize Copilot
 
-- **核心**: 通过自定义指令和提示文件，让 Copilot 的生成内容更符合你的编码规范和项目要求。
-- **自定义指令 (Custom Instructions)**:
-  - 定义通用的编码指南、技术栈偏好或项目要求。
-  - 可存储在 `.github/copilot-instructions.md` 文件中，自动应用于所有聊天请求。
-  - 示例：命名约定、错误处理方式、代码风格等。
-- **提示文件 (Prompt Files)**:
-  - 可复用的提示模板，用于常见任务，如生成代码、执行代码审查。
-  - Markdown 格式，可包含元数据（如 `mode`, `model`, `tools`）。
-  - 示例：生成特定组件、执行安全审查等。
-- **优势**: 避免重复输入上下文，确保 AI 生成内容的一致性和高质量。
+- **Core**: Customize instructions and prompt files to make Copilot's generated content better align with your coding standards and project requirements.
+- **Custom Instructions**:
+  - Define general coding guidelines, technology stack preferences, or project requirements.
+  - Can be stored in `.github/copilot-instructions.md` file, automatically applied to all chat requests.
+  - Examples: naming conventions, error handling approaches, code style, etc.
+- **Prompt Files**:
+  - Reusable prompt templates for common tasks, such as code generation and code reviews.
+  - Markdown format, can include metadata (such as `mode`, `model`, `tools`).
+  - Examples: generating specific components, performing security reviews, etc.
+- **Advantages**: Avoid repetitive context input, ensure consistency and high quality of AI-generated content.
 
 <!--
 本页是关于如何“驯服”Copilot，让它更好地服务于你的开发工作。
@@ -1066,16 +1066,16 @@ GitHub Copilot 是近年来最受关注的开发工具之一，它极大地改�
 
 # 6.3 GitHub Copilot: Language Models
 
-- **模型选择**: Copilot 提供多种内置语言模型，针对不同任务进行优化（例如，速度、推理能力）。
-- **自带模型 (Bring Your Own Model)**:
-  - 可以使用自己的 API Key 接入 Anthropic, Azure, Google, OpenAI 等提供商的模型。
-  - **优势**: 更多模型选择、实验新模型、本地计算、更精细的控制。
-- **切换模型**:
-  - **聊天**: 通过聊天输入字段中的模型选择器切换。
-  - **代码补全**: 通过 Copilot 菜单中的 `Configure Code Completions...` 切换。
-- **注意事项**:
-  - 自带模型功能目前处于预览阶段，且不适用于 Copilot Business/Enterprise 用户。
-  - 不同模型的能力可能不同，且可能不适用于所有 Copilot 功能。
+- **Model Selection**: Copilot provides multiple built-in language models optimized for different tasks (e.g., speed, reasoning capabilities).
+- **Bring Your Own Model**:
+  - You can use your own API key to connect to models from providers like Anthropic, Azure, Google, OpenAI, etc.
+  - **Advantages**: More model choices, experimenting with new models, local computation, more granular control.
+- **Switching Models**:
+  - **Chat**: Switch through the model selector in the chat input field.
+  - **Code Completion**: Switch through `Configure Code Completions...` in the Copilot menu.
+- **Considerations**:
+  - The bring-your-own-model feature is currently in preview and not applicable to Copilot Business/Enterprise users.
+  - Different models may have different capabilities and may not be suitable for all Copilot features.
 
 <!--
 这一页是关于 Copilot 的高级定制，特别是如何选择和管理其底层语言模型。
@@ -1092,16 +1092,16 @@ GitHub Copilot 是近年来最受关注的开发工具之一，它极大地改�
 
 ---
 
-# 6.4 GitHub Copilot: 使用技巧与窍门
+# 6.4 GitHub Copilot: Tips & Tricks
 
-## 优化你的开发体验
+## Optimize Your Development Experience
 
-- **选择合适的Copilot工具**: 根据任务选择代码补全、聊天、编辑或Agent模式。
-- **个性化Copilot**: 使用指令文件（`.instructions.md`）定制Copilot行为，使其符合团队编码规范。
-- **有效的Prompt工程**: 学习如何编写高质量的Prompt，提供上下文，并迭代优化。
-- **工作区索引**: 利用工作区索引（本地或远程）提升Copilot对代码库的理解。
-- **选择AI模型**: 根据任务需求（快速编码或推理）选择合适的AI模型。
-- **可复用Prompt**: 创建并分享Prompt文件（`.prompt.md`），实现Prompt的复用。
+- **Choose the Right Copilot Tool**: Select code completion, chat, edit, or Agent mode based on your task.
+- **Personalize Copilot**: Use instruction files (`.instructions.md`) to customize Copilot behavior to match team coding standards.
+- **Effective Prompt Engineering**: Learn how to write high-quality prompts, provide context, and iteratively optimize.
+- **Workspace Indexing**: Utilize workspace indexing (local or remote) to improve Copilot's understanding of the codebase.
+- **Choose AI Models**: Select appropriate AI models based on task requirements (fast coding or reasoning).
+- **Reusable Prompts**: Create and share prompt files (`.prompt.md`) to enable prompt reuse.
 
 <!--
 本Slide将介绍如何最大化利用GitHub Copilot在VS Code中的功能。
@@ -1125,14 +1125,14 @@ GitHub Copilot 是近年来最受关注的开发工具之一，它极大地改�
 
 ---
 
-# 6.5 GitHub Copilot: 常见问题解答 (FAQ)
+# 6.5 GitHub Copilot: Frequently Asked Questions (FAQ)
 
-## 解决你的疑问
+## Resolve Your Questions
 
-- **订阅与使用**: 如何获取Copilot订阅，监控使用情况，以及处理使用限制。
-- **通用问题**: 如何从VS Code中移除Copilot，网络和防火墙配置，以及速率限制。
-- **代码补全与聊天**: 启用/禁用代码补全，以及聊天功能故障排除。
-- **故障排除与反馈**: 如何提供反馈，查看日志，以及使用Chat Debug视图。
+- **Subscription & Usage**: How to get Copilot subscription, monitor usage, and handle usage limits.
+- **General Issues**: How to remove Copilot from VS Code, network and firewall configuration, and rate limiting.
+- **Code Completion & Chat**: Enable/disable code completion and chat feature troubleshooting.
+- **Troubleshooting & Feedback**: How to provide feedback, view logs, and use Chat Debug view.
 
 <!--
 本Slide将概述VS Code中强大的源代码管理（SCM）功能，特别是其对Git的深度集成。
@@ -1162,20 +1162,20 @@ layout: center
 
 # 7. Source Control
 
-## 版本控制，代码协作的核心
+## Version Control: The Core of Code Collaboration
 
 ---
 
-# 7.1 Source Control: 概述
+# 7.1 Source Control: Overview
 
-## VS Code中的Git集成与版本控制
+## Git Integration and Version Control in VS Code
 
-- **内置Git支持**: VS Code原生集成Git，提供强大的版本控制功能。
-- **SCM视图**: 通过侧边栏的SCM视图，直观管理代码变更、暂存、提交等操作。
-- **Git操作**: 支持克隆、初始化仓库、提交、分支管理、远程操作（拉取、推送、同步）。
-- **AI辅助**: GitHub Copilot可辅助生成提交信息、代码审查。
-- **可视化工具**: 提供Git blame信息、3-way合并编辑器、Diff视图、Timeline视图。
-- **多SCM提供商**: 支持同时管理多个版本控制系统。
+- **Built-in Git Support**: VS Code natively integrates Git, providing powerful version control features.
+- **SCM View**: Intuitively manage code changes, staging, commits, and other operations through the SCM view in the sidebar.
+- **Git Operations**: Support for cloning, initializing repositories, committing, branch management, and remote operations (pull, push, sync).
+- **AI Assistance**: GitHub Copilot can assist with generating commit messages and code reviews.
+- **Visualization Tools**: Provides Git blame information, 3-way merge editor, Diff view, and Timeline view.
+- **Multiple SCM Providers**: Support for managing multiple version control systems simultaneously.
 
 <!--
 本Slide将概述VS Code中强大的源代码管理（SCM）功能，特别是其对Git的深度集成。
@@ -1202,15 +1202,15 @@ layout: center
 
 ---
 
-# 7.2 Source Control: Git入门
+# 7.2 Source Control: Git Basics
 
-## 在VS Code中轻松驾驭Git
+## Effortlessly Master Git in VS Code
 
-- **Git环境设置**: 确保Git已安装，并在VS Code中配置GitHub账户。
-- **获取代码**: 支持克隆远程仓库、初始化本地仓库、发布到GitHub、以及通过GitHub Codespaces和Remote Repositories远程工作。
-- **管理代码变更**: 暂存、提交、推送和拉取变更，并利用Copilot辅助生成提交信息和代码审查。
-- **分支管理**: 创建、切换、发布分支，以及通过GitHub Pull Requests and Issues扩展进行PR管理。
-- **集成终端**: 在VS Code内置终端中使用Git命令，支持 Git Bash。
+- **Git Environment Setup**: Ensure Git is installed and configure GitHub account in VS Code.
+- **Getting Code**: Support for cloning remote repositories, initializing local repositories, publishing to GitHub, and remote work through GitHub Codespaces and Remote Repositories.
+- **Managing Code Changes**: Stage, commit, push, and pull changes, with Copilot assistance for generating commit messages and code reviews.
+- **Branch Management**: Create, switch, and publish branches, with PR management through GitHub Pull Requests and Issues extension.
+- **Integrated Terminal**: Use Git commands in VS Code's built-in terminal, with Git Bash support.
 
 <!--
 本Slide将解答关于VS Code中Git和GitHub使用的常见问题，帮助学员解决实际操作中可能遇到的困惑。
@@ -1230,15 +1230,15 @@ layout: center
 
 ---
 
-# Source Control: 常见问题解答 (FAQ)
+# Source Control: Frequently Asked Questions (FAQ)
 
-## 解决Git与GitHub使用中的常见困惑
+## Resolve Common Confusions in Git & GitHub Usage
 
-- **Git操作**: 如何撤销提交、重命名分支、撤销暂存、修改最近提交信息。
-- **远程仓库问题**: 解决推送/拉取/同步灰显或无法完成的问题，如未设置Git origin或凭据管理。
-- **认证与安全**: 处理Git认证弹窗、多因素认证（MFA）以及潜在不安全仓库的警告。
-- **仓库发现**: 解释VS Code如何发现Git仓库，以及父文件夹中仓库未被发现的原因和设置。
-- **SSH与GitHub Enterprise**: 支持SSH Git认证和GitHub Enterprise。
+- **Git Operations**: How to undo commits, rename branches, unstage changes, and modify recent commit messages.
+- **Remote Repository Issues**: Resolve grayed-out or failed push/pull/sync operations, such as unset Git origin or credential management.
+- **Authentication & Security**: Handle Git authentication popups, multi-factor authentication (MFA), and potentially unsafe repository warnings.
+- **Repository Discovery**: Explain how VS Code discovers Git repositories and why repositories in parent folders may not be discovered, with configuration settings.
+- **SSH & GitHub Enterprise**: Support for SSH Git authentication and GitHub Enterprise.
 
 <!--
 本Slide将解答关于VS Code中Git和GitHub使用的常见问题，帮助学员解决实际操作中可能遇到的困惑。
@@ -1261,20 +1261,20 @@ layout: center
 
 # 8. Terminal
 
-## 命令行交互的强大工具
+## A Powerful Tool for Command Line Interaction
 
 ---
 
-# 8.1 Terminal: 入门教程
+# 8.1 Terminal: Getting Started
 
-## 在VS Code中运行你的第一个命令
+## Running Your First Command in VS Code
 
-- **集成终端**: VS Code内置功能齐全的终端，可直接运行Shell命令。
-- **多种Shell支持**: 支持Bash, Zsh, PowerShell等多种Shell。
-- **基本操作**: 打开终端、运行命令（如`ls`）、与命令输出交互（点击链接打开文件）。
-- **命令历史**: 快速导航和重新运行历史命令。
-- **多终端管理**: 支持同时开启多个终端，并可在不同Shell间切换。
-- **终端布局**: 可将终端拖拽到编辑器区域，实现灵活布局。
+- **Integrated Terminal**: VS Code has a built-in fully-featured terminal that can run shell commands directly.
+- **Multiple Shell Support**: Supports Bash, Zsh, PowerShell, and other shells.
+- **Basic Operations**: Open terminal, run commands (like `ls`), interact with command output (click links to open files).
+- **Command History**: Quickly navigate and re-run historical commands.
+- **Multiple Terminal Management**: Support for opening multiple terminals simultaneously and switching between different shells.
+- **Terminal Layout**: Terminals can be dragged to the editor area for flexible layout.
 
 <!--
 本Slide将引导学员如何在VS Code中开始使用集成终端，从基本操作到高级管理。
@@ -1292,19 +1292,19 @@ layout: center
 
 ---
 
-# 8.2 Terminal: 基础知识
+# 8.2 Terminal: Fundamentals
 
-## 深入了解VS Code集成终端
+## Deep Dive into VS Code Integrated Terminal
 
-- **打开与切换**: 多种方式打开终端，并支持在不同Shell间切换。
-- **终端管理**: 创建、关闭、分组（分屏）终端，并支持拖拽调整布局。
-- **缓冲区导航**: 快速滚动查看终端输出，支持命令导航。
-- **链接检测**: 智能识别文件、URL、文件夹链接，并支持扩展贡献链接处理器。
-- **复制与粘贴**: 遵循平台标准，支持选中即复制、多行粘贴警告。
-- **鼠标操作**: 右键行为配置、列选择、Alt键移动光标、鼠标事件模式。
-- **查找与运行**: 终端内查找文本，运行选中代码或当前行。
-- **高级功能**: 终端最大化、全选、拖放文件路径、通过任务自动化终端启动、工作目录配置、固定尺寸终端。
-- **AI辅助**: GitHub Copilot在终端中的应用，包括行内聊天和聊天参与者。
+- **Opening & Switching**: Multiple ways to open terminal, support for switching between different shells.
+- **Terminal Management**: Create, close, group (split) terminals, support for drag-and-drop layout adjustment.
+- **Buffer Navigation**: Quick scrolling through terminal output, support for command navigation.
+- **Link Detection**: Intelligently recognize file, URL, and folder links, support for extension-contributed link handlers.
+- **Copy & Paste**: Follow platform standards, support for selection-based copying and multi-line paste warnings.
+- **Mouse Operations**: Right-click behavior configuration, column selection, Alt key cursor movement, mouse event modes.
+- **Find & Run**: Find text within terminal, run selected code or current line.
+- **Advanced Features**: Terminal maximization, select all, drag-and-drop file paths, task automation for terminal startup, working directory configuration, fixed-size terminals.
+- **AI Assistance**: GitHub Copilot applications in terminal, including inline chat and chat participants.
 
 <!--
 本Slide将深入探讨VS Code集成终端的各项基础功能和高级特性。
@@ -1328,19 +1328,19 @@ layout: center
 
 ---
 
-# 8.3 Terminal: 终端配置文件
+# 8.3 Terminal: Terminal Profiles
 
-## 定制你的Shell环境
+## Customize Your Shell Environment
 
-- **什么是终端配置文件**: 平台特定的Shell配置，包含可执行路径、参数和自定义设置。
-- **配置与自定义**: 自动检测并允许自定义现有配置文件，或创建新配置文件。
-- **配置文件参数**: 支持`path`、`source`、`overrideName`、`env`、`icon`、`color`等参数。
-- **默认配置文件**: 通过`terminal.integrated.defaultProfile.*`设置默认配置文件。
-- **移除内置配置文件**: 将配置文件名设置为`null`即可移除。
-- **任务/调试专用配置文件**: 使用`terminal.integrated.automationProfile.<platform>`为任务和调试配置专用Shell。
-- **快捷键启动**: 通过快捷键启动特定配置文件。
-- **不安全配置文件检测**: 对安装在不安全路径的Shell进行警告。
-- **常见Shell配置**: 提供Cmder、Cygwin、Git Bash、MSYS2、Windows PowerShell、WSL等Shell的配置示例。
+- **What are Terminal Profiles**: Platform-specific shell configurations including executable paths, arguments, and custom settings.
+- **Configuration & Customization**: Automatically detect and allow customization of existing profiles, or create new profiles.
+- **Profile Parameters**: Support for `path`, `source`, `overrideName`, `env`, `icon`, `color`, and other parameters.
+- **Default Profile**: Set default profile through `terminal.integrated.defaultProfile.*` setting.
+- **Remove Built-in Profiles**: Set profile name to `null` to remove.
+- **Task/Debug Dedicated Profiles**: Use `terminal.integrated.automationProfile.<platform>` to configure dedicated shells for tasks and debugging.
+- **Shortcut Launch**: Launch specific profiles through keyboard shortcuts.
+- **Unsafe Profile Detection**: Warn about shells installed in unsafe paths.
+- **Common Shell Configurations**: Provide configuration examples for Cmder, Cygwin, Git Bash, MSYS2, Windows PowerShell, WSL, and other shells.
 
 <!--
 本Slide将详细介绍VS Code中终端配置文件的概念、如何配置和管理它们，以及一些常见Shell的配置示例。
@@ -1365,22 +1365,22 @@ layout: center
 
 ---
 
-# 8.4 Terminal: Shell集成
+# 8.4 Terminal: Shell Integration
 
-## 提升终端智能与交互性
+## Enhance Terminal Intelligence and Interactivity
 
-- **核心功能**: 增强终端对Shell内部事件的理解，实现工作目录检测、命令检测、装饰和导航。
-- **安装方式**: 支持自动脚本注入（默认）和手动安装，覆盖多种Shell（bash, fish, pwsh, zsh, Git Bash）。
-- **集成质量**: 提供“无”、“富”、“基本”三种集成质量，影响功能完整性。
-- **命令装饰与导航**: 根据命令执行结果显示装饰，支持命令导航和输出选择。
-- **命令指南与粘性滚动**: 悬停显示命令指南，粘性滚动固定命令，提升可读性。
-- **快速修复**: 智能识别命令输出，提供上下文相关的快速修复建议。
-- **最近命令与目录**: 快速运行最近命令，快速切换最近访问目录。
-- **工作目录检测**: 提升链接解析准确性，并在终端标签页显示当前目录。
-- **增强的PowerShell快捷键**: 解决PowerShell在VS Code终端中的快捷键兼容性问题。
-- **增强可访问性**: 提升终端的可访问性，如命令失败时的音频提示。
-- **IntelliSense (预览)**: 在终端中提供文件、文件夹、命令、参数的智能提示。
-- **支持的转义序列**: 介绍VS Code自定义和支持的Shell集成转义序列。
+- **Core Features**: Enhance terminal's understanding of internal shell events, enabling working directory detection, command detection, decoration, and navigation.
+- **Installation Methods**: Support for automatic script injection (default) and manual installation, covering multiple shells (bash, fish, pwsh, zsh, Git Bash).
+- **Integration Quality**: Provides "None", "Rich", and "Basic" integration quality levels, affecting feature completeness.
+- **Command Decoration & Navigation**: Display decorations based on command execution results, support command navigation and output selection.
+- **Command Guide & Sticky Scroll**: Hover to display command guide, sticky scroll to pin commands, improving readability.
+- **Quick Fix**: Intelligently recognize command output, provide context-relevant quick fix suggestions.
+- **Recent Commands & Directories**: Quickly run recent commands, quickly switch to recently accessed directories.
+- **Working Directory Detection**: Improve link resolution accuracy, and display current directory in terminal tabs.
+- **Enhanced PowerShell Shortcuts**: Resolve PowerShell shortcut compatibility issues in VS Code terminal.
+- **Enhanced Accessibility**: Improve terminal accessibility, such as audio prompts when commands fail.
+- **IntelliSense (Preview)**: Provide intelligent suggestions for files, folders, commands, and parameters in terminal.
+- **Supported Escape Sequences**: Introduce VS Code custom and supported Shell integration escape sequences.
 
 <!--
 本Slide将深入讲解VS Code终端的Shell集成功能，以及它如何提升终端的智能性和用户体验。
@@ -1403,18 +1403,18 @@ layout: center
 
 ---
 
-# 8.5 Terminal: 外观
+# 8.5 Terminal: Appearance
 
-## 个性化你的终端界面
+## Personalize Your Terminal Interface
 
-- **文本样式**: 字体、字号、字间距、行高、字重、连字等。
-- **光标样式**: 光标形状、宽度、闪烁行为。
-- **自定义标签页**: 标签页可见性、文本内容（支持变量）、图标、状态动画。
-- **视觉提示**: 响铃提示（Visual bell）的启用与持续时间。
-- **终端颜色**: ANSI颜色配置、最小对比度设置。
-- **连字（Ligatures）**: 启用字体连字，支持字体特性设置和回退连字。
-- **GPU加速**: WebGL渲染器提升性能，支持自定义字形和模糊宽度字形缩放。
-- **自定义Prompt**: 推荐使用Starship和oh-my-posh等工具美化Shell Prompt。
+- **Text Styling**: Font, font size, letter spacing, line height, font weight, ligatures, etc.
+- **Cursor Styling**: Cursor shape, width, blinking behavior.
+- **Custom Tabs**: Tab visibility, text content (with variable support), icons, status animations.
+- **Visual Hints**: Enable and duration settings for visual bell notifications.
+- **Terminal Colors**: ANSI color configuration, minimum contrast settings.
+- **Ligatures**: Enable font ligatures, support for font feature settings and fallback ligatures.
+- **GPU Acceleration**: WebGL renderer for enhanced performance, support for custom glyphs and blurry width glyph scaling.
+- **Custom Prompt**: Recommended tools like Starship and oh-my-posh for beautifying Shell Prompt.
 
 <!--
 本Slide将详细介绍VS Code终端的外观定制选项，帮助学员打造个性化的终端界面。
@@ -1435,23 +1435,23 @@ layout: center
 
 ---
 
-# 8.6 Terminal: 高级功能
+# 8.6 Terminal: Advanced Features
 
-## 探索终端的更多可能性
+## Explore More Terminal Possibilities
 
-- **持久会话**: 支持进程重连和进程恢复，确保终端状态不丢失。
-- **终端可见性**: 控制终端视图在启动时的隐藏行为。
-- **键盘快捷键与Shell**: 配置哪些快捷键由VS Code处理，哪些发送给Shell。
-- **自定义序列快捷键**: 通过`sendSequence`命令发送自定义转义序列。
-- **发送自定义信号**: 使用`sendSignal`命令向前台进程发送信号。
-- **确认对话框**: 配置进程退出、终止子进程、非零退出码时的警告提示。
-- **自动回复**: 针对特定输出自动向Shell发送预设输入。
-- **制表符宽度**: 配置终端中制表符的显示宽度。
-- **Unicode与Emoji支持**: 终端对Unicode字符和Emoji的支持及注意事项。
-- **图像支持**: 支持Sixel或iTerm行内图像协议，可显示图像。
-- **进程环境**: 终端进程环境的继承、`$LANG`变量交互以及扩展对环境的贡献。
-- **Windows与ConPTY**: 解释Windows终端的ConPTY技术及其特性。
-- **远程开发**: 远程窗口中的本地终端，以及降低远程输入延迟（Local Echo）。
+- **Persistent Sessions**: Support for process reconnection and process recovery, ensuring terminal state is not lost.
+- **Terminal Visibility**: Control terminal view hiding behavior at startup.
+- **Keyboard Shortcuts & Shell**: Configure which shortcuts are handled by VS Code vs. sent to Shell.
+- **Custom Sequence Shortcuts**: Send custom escape sequences through `sendSequence` command.
+- **Send Custom Signals**: Use `sendSignal` command to send signals to foreground processes.
+- **Confirmation Dialogs**: Configure warning prompts for process exit, child process termination, and non-zero exit codes.
+- **Auto Reply**: Automatically send preset inputs to Shell for specific outputs.
+- **Tab Width**: Configure display width of tabs in terminal.
+- **Unicode & Emoji Support**: Terminal support for Unicode characters and Emojis with considerations.
+- **Image Support**: Support for Sixel or iTerm inline image protocols to display images.
+- **Process Environment**: Terminal process environment inheritance, `$LANG` variable interaction, and extension contributions to environment.
+- **Windows & ConPTY**: Explain Windows terminal ConPTY technology and its characteristics.
+- **Remote Development**: Local terminals in remote windows and reducing remote input latency (Local Echo).
 
 <!--
 本Slide将深入探讨VS Code终端的各种高级功能和配置选项，帮助学员更灵活地使用终端。
@@ -1471,7 +1471,6 @@ layout: center
 引导学员自学：鼓励学员深入探索这些高级功能，特别是那些可以提升工作效率和解决特定问题的设置。例如，可以尝试配置自动回复来简化重复性操作，或者了解ConPTY的工作原理来更好地理解Windows终端的行为。对于远程开发用户，可以尝试Local Echo功能来优化远程体验。
 -->
 
----
 
 ---
 layout: center
