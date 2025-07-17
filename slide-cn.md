@@ -335,34 +335,34 @@ layout: "center"
 class: "text-center"
 ---
 
-# Course Outline
+# 课程大纲
 
-We will strictly follow the structure of the official documentation to ensure a systematic and authoritative learning experience.
+我们将严格按照官方文档的结构进行学习，确保知识的系统性和权威性。
 
-1.  **Setup**: Installation and Environment Configuration
-2.  **Get Started**: Quick Start
-3.  **Configure**: Personalize Your Editor
-4.  **Edit code**: Efficient Coding Techniques
-5.  **Build, Debug, Test**: The Full Development Workflow
-6.  **GitHub Copilot**: Your AI Partner
-7.  **Source Control**: Git Integration
-8.  **Terminal**: Integrated Terminal
-9.  **Languages**: In-depth Support for Java & Go
-10. **Reference**: Reference Manual
+1.  **Setup**: 安装与环境配置
+2.  **Get Started**: 快速上手
+3.  **Configure**: 个性化你的编辑器
+4.  **Edit code**: 高效编码技巧
+5.  **Build, Debug, Test**: 开发全流程
+6.  **GitHub Copilot**: 你的 AI 伙伴
+7.  **Source Control**: Git 集成
+8.  **Terminal**: 内置终端
+9.  **Languages**: Java & Go 深度支持
+10. **Reference**: 备查手册
 
 ---
 
 # 1.1 Setup: Overview
 
-- **Core Concept**: VS Code is a free, lightweight, cross-platform code editor.
-- **Installation Steps**:
-  1.  Download and install the main VS Code application.
-  2.  Install additional components, such as Git and language-specific runtimes (JDK, Go).
-  3.  Install language support, debuggers, and themes through the Extension Marketplace.
-- **Key Features**:
-  - **Monthly Updates**: Official new versions are released monthly with support for automatic updates.
-  - **Insiders Version**: A daily build for early access to new features.
-  - **Portable Mode**: Allows you to configure VS Code on portable devices like a USB drive.
+- **核心理念**: VS Code 是一款免费、轻量级、跨平台的代码编辑器。
+- **安装步骤**:
+  1.  下载并安装 VS Code 本体。
+  2.  安装附加组件，如 Git 和特定语言的运行时 (JDK, Go)。
+  3.  通过扩展市场安装语言支持、调试器和主题。
+- **重要特性**:
+  - **每月更新**: 官方每月发布新版本，支持自动更新。
+  - **Insiders 版本**: 可提前体验新功能的每日构建版。
+  - **便携模式**: 可将 VS Code 配置在 USB 等便携设备上。
 
 <!--
 这是我们课程的第一部分：安装。
@@ -377,13 +377,13 @@ We will strictly follow the structure of the official documentation to ensure a 
 
 # 1.2 Setup: Windows Installation
 
-- **Installer Types**:
-  - **User Setup**: **Recommended**. No administrator privileges required, installs in the user directory, and provides smoother updates.
-  - **System Setup**: Requires administrator privileges, installs for all users on the system.
-- **Important Tip**:
-  - Check "Add to PATH" during installation. You can then launch VS Code from any terminal in the current directory using the `code .` command.
-- **Core for Backend Development**: **Windows Subsystem for Linux (WSL)**
-  - Combined with the **WSL extension**, it provides a native Linux development and debugging experience on Windows, which is an excellent choice for Java/Go applications that need to be deployed to Linux servers.
+- **安装器类型**:
+  - **User Setup (用户安装)**: **推荐**。无需管理员权限，安装在用户目录下，更新更平滑。
+  - **System Setup (系统安装)**: 需要管理员权限，为系统中所有用户安装。
+- **重要技巧**:
+  - 安装时勾选 "Add to PATH"，之后便可在任何终端通过 `code .` 命令在当前目录启动 VS Code。
+- **后端开发核心**: **Windows Subsystem for Linux (WSL)**
+  - 配合 **WSL 扩展**，可以在 Windows 上获得原生的 Linux 开发和调试体验，对于需要部署到 Linux 服务器的 Java/Go 应用来说是绝佳选择。
 
 <!--
 这页我们关注 Windows 用户的安装要点。
@@ -398,13 +398,13 @@ We will strictly follow the structure of the official documentation to ensure a 
 
 # 2.1 Get Started: VS Code Tutorial
 
-- **Core Workflow**: **Open Folder (Workspace)** -> Code -> Debug -> Commit.
-- **The Big Four (UI)**:
-  - **Editor**: Your main coding battlefield.
-  - **Side Bar**: Entry point for Files, Search, Git, Debug, and Extensions.
-  - **Panel**: Integrated Terminal, Output, Problems, etc.
-  - **Command Palette**: `Ctrl+Shift+P`, the universal command entry point.
-- **Core Capabilities Come from Extensions**: VS Code gains support for specific languages (like Java, Go) for IntelliSense, debugging, and refactoring by installing extensions.
+- **核心工作流**: **打开文件夹 (Workspace)** -> 编码 -> 调试 -> 提交。
+- **四大金刚 (UI)**:
+  - **编辑器 (Editor)**: 你的代码主战场。
+  - **侧边栏 (Side Bar)**: 文件、搜索、Git、调试、扩展的入口。
+  - **面板 (Panel)**: 集成终端、输出、问题等。
+  - **命令面板 (Command Palette)**: `Ctrl+Shift+P`，万能的命令入口。
+- **核心能力来自扩展**: VS Code 通过安装扩展来获得对特定语言（如Java, Go）的智能提示、调试和重构能力。
 
 <!--
 这一页是新用户入门的基石。
@@ -419,15 +419,15 @@ We will strictly follow the structure of the official documentation to ensure a 
 
 # 2.2 Get Started: User Interface
 
-- **Core Layout**: Main Editor, Primary/Secondary Side Bars, Activity Bar, Status Bar, Panel area.
-- **Efficient Layout Techniques**:
-  - **Side by side Editing**: `Alt+Click` a file or use the split button to greatly improve code comparison and reference efficiency.
-  - **Editor Groups**: Organize related files into different groups to keep the workspace tidy.
-  - **Floating Windows**: Drag editors or terminals out of the main window to make full use of multiple monitors.
-- **Navigation Tools**:
-  - **Breadcrumbs**: File path + code structure navigation for quick jumps.
-  - **Outline View**: View the symbol structure (functions, variables, etc.) in a file.
-  - **Timeline View**: View the Git commit history and local save history of a file.
+- **核心布局**: 主编辑区、主/副侧边栏、活动栏、状态栏、面板区。
+- **高效布局技巧**:
+  - **分屏编辑 (Side by side)**: `Alt+Click` 文件或使用拆分按钮，极大提升代码对比和参照效率。
+  - **编辑器组 (Editor Groups)**: 将相关文件组织在不同的分组中，保持工作区整洁。
+  - **浮动窗口 (Floating Windows)**: 将编辑器或终端拖出主窗口，充分利用多显示器。
+- **导航利器**:
+  - **面包屑 (Breadcrumbs)**: 文件路径 + 代码结构导航，快速跳转。
+  - **大纲视图 (Outline View)**: 查看文件中的符号（函数、变量等）结构。
+  - **时间线视图 (Timeline View)**: 查看文件的Git提交历史和本地保存历史。
 
 <!--
 本页的目的是让学员熟悉并能高效利用VS Code的UI布局。
@@ -447,15 +447,15 @@ We will strictly follow the structure of the official documentation to ensure a 
 
 # 2.3 Get Started: Personalize VS Code
 
-- **Settings**: `Ctrl+,`
-  - **User Settings**: Global settings that define your personal coding style.
-  - **Workspace Settings**: Project-level settings that override user settings, used for unifying team standards.
-- **Keyboard Shortcuts**: `Ctrl+K Ctrl+S`
-  - You can change the shortcuts for almost any command to match your muscle memory.
-  - **Keymap Extensions**: Allow you to set shortcuts to match Vim, Sublime Text, IntelliJ IDEA, etc. with one click.
-- **Themes**: `Ctrl+K Ctrl+T`
-  - **Color Themes**: Change the overall UI and code highlighting colors.
-  - **File Icon Themes**: Change the icons in the file explorer.
+- **设置 (Settings)**: `Ctrl+,`
+  - **用户设置 (User)**: 全局生效，定义你的个人编码风格。
+  - **工作区设置 (Workspace)**: 项目级生效，覆盖用户设置，用于统一团队规范。
+- **快捷键 (Keyboard Shortcuts)**: `Ctrl+K Ctrl+S`
+  - 可以修改几乎所有命令的快捷键，以匹配你的肌肉记忆。
+  - **Keymap 扩展**: 可以一键将快捷键设置为 Vim, Sublime Text, IntelliJ IDEA 等风格。
+- **主题 (Themes)**: `Ctrl+K Ctrl+T`
+  - **Color Themes**: 改变整体UI和代码高亮颜色。
+  - **File Icon Themes**: 改变文件浏览器中的图标。
 
 <!--
 这一页的核心是告诉学员，VS Code可以被塑造成任何他们想要的样子。
@@ -470,14 +470,14 @@ We will strictly follow the structure of the official documentation to ensure a 
 
 # 2.4 Get Started: Install Extensions
 
-- **Extensions are the soul of VS Code**: They add language support, debuggers, new tools, and new commands to VS Code.
-- **How to manage extensions**:
-  - Search, install, and uninstall in the **Extensions View** (`Ctrl+Shift+X`).
-  - **Recommended Extensions**: VS Code intelligently recommends relevant extensions based on the project type you open.
-- **Essential Extension Packs for Backend Development**:
-  - **Extension Pack for Java**: One-click installation of the full toolset for Java development.
-  - **Go**: The official Go language support extension maintained by Google.
-  - **Remote Development**: An essential suite for remote development, supporting SSH, WSL, and Dev Containers.
+- **扩展是 VS Code 的灵魂**: 它们为 VS Code 添加了语言支持、调试器、新工具和新命令。
+- **如何管理扩展**:
+  - 在 **扩展视图 (Extensions View)** (`Ctrl+Shift+X`) 中搜索、安装和卸载。
+  - **推荐扩展 (Recommended)**: VS Code 会根据你打开的项目类型，智能推荐相关扩展。
+- **后端开发必备扩展包**:
+  - **Extension Pack for Java**: 一键安装 Java 开发所需的全套工具。
+  - **Go**: Google 官方维护的 Go 语言支持扩展。
+  - **Remote Development**: 支持 SSH、WSL 和 Dev Containers 的远程开发必备套件。
 
 <!--
 本页是整个培训的重点之一，因为扩展决定了VS Code对特定语言的能力。
@@ -494,17 +494,17 @@ We will strictly follow the structure of the official documentation to ensure a 
 
 # 2.5 Get Started: Tips and Tricks
 
-- **Command Palette**: `Ctrl+Shift+P`
-  - Not just for commands; remove the `>` to search for filenames directly (`Ctrl+P`).
-  - Type `@` to search for symbols (functions, variables).
-  - Type `:` to jump to a line number.
-- **Efficient Editing**:
-  - **Multiple Cursors**: `Alt+Click` to add cursors; `Ctrl+D` to select the next match.
-  - **Column (Box) Selection**: `Shift+Alt+Drag` or configure a keyboard shortcut.
-  - **Move/Copy Lines**: `Alt+Up/Down` to move lines; `Shift+Alt+Up/Down` to copy lines.
-- **Navigation**:
-  - `Ctrl+Tab`: Navigate through the history of opened editors.
-  - `Ctrl+G`: Go to a specific line.
+- **命令面板 (Command Palette)**: `Ctrl+Shift+P`
+  - 不只是命令，去掉 `>` 后可直接搜索文件名 (`Ctrl+P`)。
+  - 输入 `@` 可搜索符号（函数、变量）。
+  - 输入 `:` 可跳转到行号。
+- **高效编辑**:
+  - **多光标编辑**: `Alt+Click` 添加光标；`Ctrl+D` 选中下一个匹配项。
+  - **列(盒)选择**: `Shift+Alt+Drag` 或配置键盘快捷键。
+  - **代码行移动/复制**: `Alt+Up/Down` 移动行；`Shift+Alt+Up/Down` 复制行。
+- **导航**:
+  - `Ctrl+Tab`: 在打开的编辑器历史中导航。
+  - `Ctrl+G`: 跳转到指定行。
 
 <!--
 这一页的目标是分享一些能立刻提升生产力的“黑魔法”。
@@ -521,14 +521,14 @@ We will strictly follow the structure of the official documentation to ensure a 
 
 # 3.1 Configure: Display Language
 
-- **Core Concept**: VS Code's interface is in English by default. Other languages are enabled by installing **Language Packs** extensions.
-- **How to Configure**:
-  1.  Open the **Command Palette** (`Ctrl+Shift+P`).
-  2.  Type and run the `Configure Display Language` command.
-  3.  Select your desired language (e.g., `zh-cn`).
-  4.  If the corresponding language pack is not installed, VS Code will automatically prompt you to install it.
-  5.  Restart VS Code for the changes to take effect.
-- **Temporary Switch**: You can temporarily specify a language via a command-line argument when launching VS Code:
+- **核心概念**: VS Code 默认是英文界面，其他语言通过安装 **Language Packs (语言包)** 扩展来实现。
+- **如何配置**:
+  1.  打开 **命令面板 (Command Palette)** (`Ctrl+Shift+P`)。
+  2.  输入并运行 `Configure Display Language` 命令。
+  3.  选择你想要的语言（例如 `zh-cn`）。
+  4.  如果对应的语言包未安装，VS Code 会自动提示安装。
+  5.  重启 VS Code 生效。
+- **临时切换**: 可以在启动 VS Code 时通过命令行参数临时指定语言：
   `code . --locale=fr`
 
 <!--
@@ -543,10 +543,10 @@ We will strictly follow the structure of the official documentation to ensure a 
 
 # 3.2 Configure: Custom Layout
 
-- **Dual Side Bars**: Open two sidebars (primary and secondary) at the same time, for example, view the file tree on the left and GitLens or Copilot Chat on the right.
-- **Panel Position**: The panel area (Terminal, Problems, etc.) can be moved to the left, right, top, or bottom of the window.
-- **Drag and Drop Views**: Almost all views (like Search, Outline) can be dragged to any sidebar or panel area, and even merged into tab groups.
-- **Locked Editor Groups**: Lock an editor group (e.g., for the terminal) so that newly opened files always open in other unlocked groups, preventing the terminal from being accidentally covered.
+- **双侧边栏 (Side Bars)**: 同时打开两个侧边栏（主、副），例如左边看文件树，右边看 GitLens 或 Copilot Chat。
+- **面板位置 (Panel Position)**: 面板区（终端、问题等）可以移动到窗口的左、右、上、下任意位置。
+- **视图拖放 (Drag and Drop)**: 几乎所有视图（如搜索、大纲）都可以拖拽到任何侧边栏或面板区域，甚至可以合并成标签页组。
+- **锁定编辑器组 (Locked Editor Groups)**: 锁定一个编辑器组（例如放终端），这样新打开的文件总是在其他未锁定的组中打开，避免终端被意外覆盖。
 
 <!--
 本页的核心是展示VS Code布局的极致灵活性。
@@ -563,12 +563,12 @@ We will strictly follow the structure of the official documentation to ensure a 
 
 # 3.3 Configure: Keyboard Shortcuts
 
-- **Editing Methods**:
-  - **Graphical Editor**: `Ctrl+K Ctrl+S`, provides search, filtering, and conflict detection.
-  - **JSON File**: Advanced customization via `keybindings.json`.
-- **Keymap Extensions**: A great tool to lower the migration cost! Install with one click to use familiar keybinding schemes from IntelliJ IDEA, Eclipse, Vim, etc.
-- **Core Concept: `when` clause**: Makes a shortcut effective only in a specific context. For example, a shortcut can be triggered only during debugging or when the focus is on the terminal.
-- **Conflict Resolution**: When a shortcut is bound to multiple commands, the editor will show a conflict, and you need to resolve it based on the `when` clause or personal preference.
+- **编辑方式**:
+  - **图形化编辑器**: `Ctrl+K Ctrl+S`，提供搜索、筛选和冲突检测功能。
+  - **JSON 文件**: 通过 `keybindings.json` 进行高级定制。
+- **Keymap 扩展**: 降低迁移成本的利器！一键安装，即可使用 IntelliJ IDEA, Eclipse, Vim 等你熟悉的快捷键方案。
+- **核心概念: `when` 子句**: 让快捷键在特定上下文 (context) 中生效。例如，一个快捷键可以只在调试时、或只在焦点位于终端时触发。
+- **冲突解决**: 当一个快捷键绑定了多个命令时，编辑器会显示冲突，你需要根据 `when` 子句或个人偏好来解决它。
 
 <!--
 这一页的目标是让学员无痛地从其他编辑器迁移过来，并能定制自己的专属快捷键。
@@ -583,14 +583,14 @@ We will strictly follow the structure of the official documentation to ensure a 
 
 # 3.4 Configure: Settings
 
-- **Setting Types**:
-  - **User Settings**: Global settings stored in the user directory, affecting all VS Code instances.
-  - **Workspace Settings**: Project-level settings stored in the project's `.vscode` folder, valid only for the current project and overriding user settings.
-- **Access Methods**:
-  - **Settings Editor**: `Ctrl+,` (or `Cmd+,`), a graphical interface for easy searching and modification.
-  - **JSON File**: `settings.json`, for direct editing, suitable for advanced configuration and team sharing.
-- **Priority**: Workspace Settings > User Settings. This means teams can unify code styles, linter rules, etc., through workspace settings.
-- **Language-Specific Settings**: You can configure separate settings for specific languages (like Java, Go), such as formatting rules and linter checks.
+- **设置类型**:
+  - **用户设置 (User Settings)**: 全局生效，存储在用户目录下，影响所有 VS Code 实例。
+  - **工作区设置 (Workspace Settings)**: 项目级生效，存储在项目 `.vscode` 文件夹中，仅对当前项目有效，并覆盖用户设置。
+- **访问方式**:
+  - **设置编辑器 (Settings Editor)**: `Ctrl+,` (或 `Cmd+,`)，图形化界面，方便搜索和修改。
+  - **JSON 文件**: `settings.json`，直接编辑 JSON 文件，适合高级配置和团队共享。
+- **优先级**: 工作区设置 > 用户设置。这意味着团队可以通过工作区设置统一代码风格、Linter 规则等。
+- **语言特定设置**: 可以为特定语言（如 Java, Go）配置独立的设置，例如格式化规则、Linter 检查。
 
 <!--
 这一页是VS Code个性化配置的核心。
@@ -610,16 +610,16 @@ We will strictly follow the structure of the official documentation to ensure a 
 
 # 3.5 Configure: Settings Sync
 
-- **Core Functionality**: Sync your VS Code configuration across multiple devices, including:
-  - Settings
-  - Keyboard Shortcuts
-  - User Snippets
-  - Extensions and their enabled status
-  - UI State
-- **How to Enable**: Turn on via the **Manage** gear menu or the **Accounts** menu's **Backup and Sync Settings...**.
-- **Login**: Supports login with Microsoft or GitHub accounts.
-- **Conflict Handling**: When conflicts occur, you can choose to merge, replace local, or resolve manually.
-- **Important Note**: Extensions in remote windows (like SSH, Dev Containers, WSL) are not automatically synced.
+- **核心功能**: 在多台设备间同步你的 VS Code 配置，包括：
+  - 设置 (Settings)
+  - 键盘快捷键 (Keyboard Shortcuts)
+  - 用户代码片段 (User Snippets)
+  - 扩展 (Extensions) 及其启用状态
+  - UI 状态 (UI State)
+- **开启方式**: 通过 **管理 (Manage)** 齿轮菜单或 **账户 (Accounts)** 菜单中的 **备份和同步设置 (Backup and Sync Settings...)** 开启。
+- **登录**: 支持 Microsoft 或 GitHub 账户登录。
+- **冲突处理**: 遇到冲突时，可选择合并、替换本地或手动解决。
+- **重要提示**: 远程窗口（如 SSH, Dev Containers, WSL）中的扩展不会自动同步。
 
 <!--
 这一页对于经常在多台机器（例如台式机、笔记本、远程服务器）之间切换的开发者来说非常重要。
@@ -638,14 +638,14 @@ We will strictly follow the structure of the official documentation to ensure a 
 
 # 3.6 Configure: Extension Marketplace
 
-- **Extension Marketplace**: The official source for VS Code extensions, offering a vast number to enhance functionality.
-- **Browsing and Installing**: Search, install, and manage extensions via the **Extensions View** (`Ctrl+Shift+X`).
-  - You can filter and sort by category, install count, rating, etc.
-  - Supports installing pre-release versions.
-- **Managing Extensions**: Enable/disable (globally or per workspace), update, uninstall.
-  - Extensions can be updated automatically or manually.
-- **Security**: The marketplace scans extensions for malware and prompts for trust of third-party publishers.
-- **Workspace Recommendations**: Recommend extensions in the project's `.vscode/extensions.json` to facilitate a unified development environment for the team.
+- **扩展市场**: VS Code 扩展的官方来源，提供海量扩展以增强功能。
+- **浏览与安装**: 通过 **扩展视图** (`Ctrl+Shift+X`) 搜索、安装和管理扩展。
+  - 可按类别、安装量、评分等筛选和排序。
+  - 支持安装预发布版本。
+- **管理扩展**: 启用/禁用（全局或工作区）、更新、卸载。
+  - 扩展可自动更新，也可手动更新。
+- **安全性**: 市场对扩展进行恶意软件扫描，并提示第三方发布者信任。
+- **工作区推荐**: 在项目 `.vscode/extensions.json` 中推荐扩展，方便团队协作统一开发环境。
 
 <!--
 本页是对扩展市场的深入介绍，补充了之前“安装扩展”的内容。
@@ -653,7 +653,7 @@ We will strictly follow the structure of the official documentation to ensure a 
 - **强调扩展的丰富性**：再次强调扩展是VS Code强大的原因，并鼓励学员积极探索。
 - **演示扩展视图的搜索和筛选功能**：例如，搜索 `@category:"Programming Languages"` 或 `@installed` 来查看已安装的扩展。
 - **讲解工作区推荐扩展**：这是一个非常重要的团队协作功能。演示如何创建一个 `.vscode/extensions.json` 文件，并添加一些推荐的扩展ID（例如 Java 和 Go 的扩展）。解释当团队成员打开项目时，VS Code会自动提示安装这些推荐扩展，从而统一团队的开发环境。
-- **安全提示**：提醒学员，安装扩展时要注意发布者和安装时的信任提示，确保安装的扩展是可信的。
+- **安全提示**：提醒学员注意扩展的发布者和安装时的信任提示，确保安装的扩展是可信的。
 - **课外引申**：可以提及命令行管理扩展 (`code --install-extension`)，这对于自动化部署或CI/CD环境非常有用。
 -->
 
@@ -661,16 +661,16 @@ We will strictly follow the structure of the official documentation to ensure a 
 
 # 3.7 Configure: Themes
 
-- **Theme Types**:
-  - **Color Themes**: Change the overall color scheme of the editor and UI, affecting code highlighting.
-  - **File Icon Themes**: Change the icons for files and folders in the file explorer.
-  - **Product Icon Themes**: Change the icons of the VS Code UI itself (e.g., Activity Bar icons).
-- **How to Switch**:
-  - **Color Theme**: `Ctrl+K Ctrl+T` (or via Command Palette `Preferences: Color Theme`).
-  - **File Icon Theme**: Via Command Palette `Preferences: File Icon Theme`.
-  - **Product Icon Theme**: Via Command Palette `Preferences: Product Icon Theme`.
-- **Customization**: You can further fine-tune theme colors through settings like `workbench.colorCustomizations`.
-- **Auto Switch**: Can automatically switch themes based on the operating system's light/dark mode.
+- **主题类型**:
+  - **颜色主题 (Color Themes)**: 改变编辑器和UI的整体颜色方案，影响代码高亮。
+  - **文件图标主题 (File Icon Themes)**: 改变文件浏览器中文件和文件夹的图标。
+  - **产品图标主题 (Product Icon Themes)**: 改变VS Code UI本身的图标（如活动栏图标）。
+- **如何切换**:
+  - **颜色主题**: `Ctrl+K Ctrl+T` (或通过命令面板 `Preferences: Color Theme`)。
+  - **文件图标主题**: 通过命令面板 `Preferences: File Icon Theme`。
+  - **产品图标主题**: 通过命令面板 `Preferences: Product Icon Theme`。
+- **个性化定制**: 可以通过 `workbench.colorCustomizations` 等设置，进一步微调主题颜色。
+- **自动切换**: 可根据操作系统亮/暗模式自动切换主题。
 
 <!--
 这一页是关于VS Code的视觉定制，虽然不直接影响功能，但一个舒适的视觉环境能显著提升开发体验。
@@ -691,15 +691,15 @@ We will strictly follow the structure of the official documentation to ensure a 
 
 # 3.8 Configure: Profiles
 
-- **Core Concept**: A "profile" is a collection of VS Code settings, extensions, keyboard shortcuts, UI layout, etc., bundled together.
-- **Use Cases**:
-  - **Multi-language Development**: Create dedicated profiles for different languages like Java and Go to avoid loading unnecessary extensions.
-  - **Specific Projects**: Customize configurations for specific projects (e.g., a Spring Boot project).
-  - **Demos/Teaching**: Quickly switch to a clean or preset environment for demonstrations.
-- **Management**:
-  - **Profiles Editor**: A unified place to create, edit, switch, and delete profiles.
-  - **Associate with Workspace**: Profiles can be associated with specific folders or workspaces, automatically switching when opened.
-  - **Import/Export**: Convenient for sharing with others or migrating between different machines.
+- **核心概念**: 将 VS Code 的设置、扩展、快捷键、UI 布局等打包成一个独立的“配置文件集”。
+- **应用场景**:
+  - **多语言开发**: 为 Java、Go 等不同语言创建专属配置文件，避免不必要的扩展加载。
+  - **特定项目**: 为特定项目（如 Spring Boot 项目）定制配置。
+  - **演示/教学**: 快速切换到干净或预设的演示环境。
+- **管理方式**:
+  - **Profiles 编辑器**: 统一创建、编辑、切换和删除配置文件。
+  - **与工作区关联**: 配置文件可以与特定文件夹或工作区关联，打开时自动切换。
+  - **导入/导出**: 方便与他人分享或在不同机器间迁移。
 
 <!--
 Profiles 是一个非常强大的功能，尤其适合需要处理多种技术栈的后端开发者。
@@ -720,12 +720,14 @@ Profiles 是一个非常强大的功能，尤其适合需要处理多种技术�
 
 # 3.9 Configure: Telemetry
 
-- **Purpose**: VS Code collects telemetry data to improve the product, such as debugging issues, optimizing performance, and prioritizing new features.
-- **Data Types**: Mainly includes crash reports, error telemetry, and usage data.
-- **Disabling Telemetry**: Controlled via the `telemetry.telemetryLevel` setting:
-  - `all`: Collects all data.
-  - `off`: **Completely disables all telemetry data collection**.
-- **Extension Telemetry**: Extensions may collect data independently and are not controlled by the `telemetry.telemetryLevel` setting. Please consult the extension's documentation.
+- **目的**: VS Code 收集遥测数据以改进产品，例如调试问题、优化性能和确定新功能优先级。
+- **数据类型**: 主要包括崩溃报告、错误遥测和使用数据。
+- **禁用遥测**: 通过 `telemetry.telemetryLevel` 设置控制：
+  - `all`: 收集所有数据。
+  - `error`: 仅收集崩溃和错误报告。
+  - `crash`: 仅收集崩溃报告。
+  - `off`: **完全禁用所有遥测数据收集**。
+- **扩展的遥测**: 扩展可能独立收集数据，不受 `telemetry.telemetryLevel` 设置控制。请查阅扩展文档。
 
 <!--
 这一页是关于隐私和数据收集，对于一些学员来说可能比较敏感，需要清晰地解释。
@@ -741,14 +743,14 @@ Profiles 是一个非常强大的功能，尤其适合需要处理多种技术�
 
 # 4.1 Edit code: Basic Editing
 
-- **Multiple Cursors**: `Alt+Click` to add cursors, `Ctrl+D` to select the next match for efficient bulk editing.
-- **Column Selection**: `Shift+Alt+Drag` for block selection, useful for handling tabular data or aligning code.
-- **Auto Save & Hot Exit**: Configure `files.autoSave` for automatic saving, `files.hotExit` ensures unsaved changes are not lost.
-- **Find and Replace**:
-  - **In-file**: `Ctrl+F`, supports regex, whole word match, case sensitive.
-  - **Global**: `Ctrl+Shift+F`, search and replace across files, supports include/exclude paths.
-- **Code Formatting**: `Format Document` (`Shift+Alt+F`) or `Format Selection`, supports format on save.
-- **Code Folding**: Fold/unfold code blocks based on structure to improve readability.
+- **多光标编辑**: `Alt+Click` 添加光标，`Ctrl+D` 选中下一个匹配项，实现高效批量修改。
+- **列选择**: `Shift+Alt+拖拽` 进行块状选择，处理表格数据或对齐代码。
+- **自动保存与热退出**: `files.autoSave` 配置自动保存，`files.hotExit` 确保未保存更改不丢失。
+- **查找与替换**:
+  - **文件内**: `Ctrl+F`，支持正则、全词匹配、区分大小写。
+  - **全局**: `Ctrl+Shift+F`，跨文件搜索与替换，支持包含/排除路径。
+- **代码格式化**: `Format Document` (`Shift+Alt+F`) 或 `Format Selection`，支持保存时自动格式化。
+- **代码折叠**: 根据代码结构折叠/展开代码块，提升可读性。
 
 <!--
 这一页的目标是让学员掌握VS Code最基础也是最常用的编辑功能，这些功能是日常编码效率的基石。
@@ -765,12 +767,12 @@ Profiles 是一个非常强大的功能，尤其适合需要处理多种技术�
 
 # 4.2 Edit code: IntelliSense
 
-- **Core Features**: Provides smart code completions, parameter info, quick info, and member lists.
-- **How it Works**: Powered by a Language Service, based on language semantics and code analysis.
-- **Triggering**: Pops up automatically, or can be triggered manually (`Ctrl+Space`).
-- **Types**: Includes language server suggestions, snippets, and word-based text completions.
-- **Customization**: Can be personalized through settings (`editor.quickSuggestions`, `editor.acceptSuggestionOnEnter`, etc.) and shortcuts.
-- **AI Enhancement**: AI tools like GitHub Copilot further enhance the intelligence of code completions and suggestions.
+- **核心功能**: 提供智能代码补全、参数信息、快速信息和成员列表。
+- **工作原理**: 由语言服务 (Language Service) 提供，基于语言语义和代码分析。
+- **触发方式**: 自动弹出，或手动触发 (`Ctrl+Space`)。
+- **类型**: 包括语言服务器建议、代码片段和基于单词的文本补全。
+- **定制**: 可通过设置 (`editor.quickSuggestions`, `editor.acceptSuggestionOnEnter` 等) 和快捷键进行个性化。
+- **AI 增强**: GitHub Copilot 等 AI 工具进一步提升代码补全和建议的智能性。
 
 <!--
 IntelliSense 是现代IDE的基石，也是VS Code提高开发效率的关键。
@@ -778,6 +780,8 @@ IntelliSense 是现代IDE的基石，也是VS Code提高开发效率的关键。
 - **强调其重要性**：对于Java和Go这类强类型语言，IntelliSense能够极大地减少拼写错误，提高编码速度，并帮助开发者快速了解API。
 - **动手演示**：
   - 在一个Java或Go文件中，演示代码自动补全，包括方法、变量、类名等。
+  - 演示参数信息（当输入函数参数时，显示参数列表和类型）。
+  - 演示快速信息（将鼠标悬停在变量或函数上时，显示其定义和文档）。
   - 演示如何手动触发 (`Ctrl+Space`) 建议。
 - **AI的加持**：简单提及 GitHub Copilot 如何通过AI进一步增强 IntelliSense 的能力，提供更智能、更上下文相关的建议。
 - **课外引申**：
@@ -789,16 +793,16 @@ IntelliSense 是现代IDE的基石，也是VS Code提高开发效率的关键。
 
 # 4.3 Edit code: Code Navigation
 
-- **Quick File Navigation**: `Ctrl+Tab` to quickly switch between recently opened files; `Ctrl+P` to quickly open a file.
-- **Breadcrumbs**: The top navigation bar shows the file path and symbol path for easy navigation.
-- **Definition & Implementation**:
-  - **Go to Definition**: `F12` or `Ctrl+Click`, jumps to the symbol's definition.
-  - **Go to Type Definition**: Jumps to the type definition of a variable or expression.
-  - **Go to Implementation**: Jumps to the concrete implementation of an interface or abstract method.
-- **Symbol Navigation**:
-  - **Go to Symbol in File**: `Ctrl+Shift+O`, quickly jump to functions, variables, etc. in the current file.
-  - **Go to Symbol in Workspace**: `Ctrl+T`, search for symbols across all files in the workspace.
-- **Peek**: `Alt+F12`, view the definition or reference without leaving the current file.
+- **快速文件导航**: `Ctrl+Tab` 快速切换最近打开的文件；`Ctrl+P` 快速打开文件。
+- **面包屑 (Breadcrumbs)**: 顶部导航栏，显示文件路径和符号路径，方便快速跳转。
+- **定义与实现**:
+  - **转到定义 (Go to Definition)**: `F12` 或 `Ctrl+Click`，跳转到符号定义处。
+  - **转到类型定义 (Go to Type Definition)**: 跳转到变量或表达式的类型定义处。
+  - **转到实现 (Go to Implementation)**: 跳转到接口或抽象方法的具体实现处。
+- **符号导航**:
+  - **文件内符号 (Go to Symbol in File)**: `Ctrl+Shift+O`，快速跳转到当前文件中的函数、变量等。
+  - **工作区符号 (Go to Symbol in Workspace)**: `Ctrl+T`，跨文件搜索工作区内的所有符号。
+- **速览 (Peek)**: `Alt+F12`，在不离开当前文件的情况下查看定义或引用。
 
 <!--
 代码导航是理解和修改大型代码库的关键技能。本页将介绍VS Code提供的强大导航功能。
@@ -820,12 +824,15 @@ IntelliSense 是现代IDE的基石，也是VS Code提高开发效率的关键。
 
 # 4.4 Edit code: Refactoring
 
-- **Core**: Refactoring is the process of improving the structure of code without changing its external behavior.
-- **Supported Operations**:
-  - **Extract Method/Variable**: Select code and quickly extract it as a new method or variable.
-  - **Rename Symbol**: Rename variables, functions, classes, etc., synchronously in all references.
-- **Code Actions**: The light bulb icon that appears in the editor provides quick fixes and refactoring suggestions.
-- **Refactor Preview**: Preview all changes before applying a refactor.
+- **核心**: 重构是改进代码结构而不改变其外部行为的过程。
+- **实现方式**: 主要由语言服务（通过扩展提供）支持。
+- **常见重构操作**:
+  - **提取方法/变量 (Extract Method/Variable)**: 选中代码，通过“灯泡”图标或 `Ctrl+.` 快速提取为新方法或变量。
+  - **重命名符号 (Rename Symbol)**: `F2`，在所有引用处同步重命名变量、函数、类等。
+- **Code Actions (代码操作)**:
+  - 编辑器中出现的“灯泡”图标，提供快速修复和重构建议。
+  - 可配置在保存时自动执行某些 Code Actions (例如 `source.organizeImports`)。
+- **重构预览 (Refactor Preview)**: 在应用重构前，预览所有将要进行的更改。
 
 <!--
 重构是后端开发中保持代码健康、可维护性的重要环节。VS Code提供了强大的重构支持。
@@ -845,24 +852,27 @@ IntelliSense 是现代IDE的基石，也是VS Code提高开发效率的关键。
 
 # 4.5 Edit code: Snippets
 
-- **What are Snippets**: Predefined code templates that allow you to quickly insert commonly used code structures, such as loops, conditionals, function definitions, etc., using simple triggers (prefix).
-- **Efficiency Boost**: Reduces repetitive typing, ensures code consistency, and is especially useful for template code common in backend development.
-- **Sources**:
-  - **Built-in**: Provided by VS Code itself.
-  - **Extensions**: Many extensions provide snippets for specific languages or frameworks.
-  - **Custom**: The most powerful! You can create your own snippets based on personal or team needs.
-- **Custom Snippets**:
-  - Create them via `File > Preferences > Configure User Snippets`.
-  - Support for placeholders (`$1`, `$2`), default values, variables (`$TM_FILENAME`), and other advanced features.
+- **什么是 Snippets**: 预定义的代码模板，通过简单的触发词（prefix）快速插入常用代码结构，例如循环、条件语句、函数定义等。
+- **提升效率**: 减少重复输入，确保代码一致性，尤其适用于后端开发中常见的模板代码。
+- **来源**:
+  - **内置**: VS Code 自身提供。
+  - **扩展**: 大量扩展提供特定语言或框架的 Snippets。
+  - **自定义**: 最强大！可以根据个人或团队需求创建专属 Snippets。
+- **自定义 Snippets**:
+  - 通过 `File > Preferences > Configure User Snippets` 创建。
+  - 支持占位符 (`$1`, `$2`)、默认值、变量 (`$TM_FILENAME`) 等高级功能。
 
 <!--
 Snippets 是提高编码效率的利器，尤其对于后端开发中常见的重复性代码块。
 
-- **强调效率**：Snippets 通过预定义代码模板，极大地减少了重复性输入的工作量，同时也确保了代码的一致性。
+- **强调效率**：解释 Snippets 如何通过自动化重复性输入来节省时间，并减少错误。
 - **动手演示**：
-  - 演示如何创建一个简单的 Snippet，例如一个 Java 的 `public static void main` 方法的模板，或者一个 Go 的 `func main()` 模板。
-  - 演示占位符 (`$1`, `$2`, `$0`) 的用法，以及如何通过 `Tab` 键在占位符之间跳转。
-  - 演示 `TM_FILENAME` 等变量的用法，例如在注释中自动插入文件名。
+  - 演示一个内置的 Snippet，例如在 Java 文件中输入 `for`，然后选择一个 `for` 循环的 Snippet。
+  - **重点演示如何创建自定义 Snippet**：
+    - 打开 `Configure User Snippets`，选择 `java.json` 或 `go.json`。
+    - 编写一个简单的 Snippet，例如一个 Java 的 `public static void main` 方法的模板，或者一个 Go 的 `func main()` 模板。
+    - 演示占位符 (`$1`, `$2`, `$0`) 的用法，以及如何通过 `Tab` 键在占位符之间跳转。
+    - 演示 `TM_FILENAME` 等变量的用法，例如在注释中自动插入文件名。
 - **团队协作**：提及可以将 Snippets 存储在项目 `.vscode` 文件夹中，以便团队成员共享。
 - **课外引申**：
   - 鼓励学员探索 Snippet 的高级语法，例如 `choice` (选择列表) 和 `transform` (变量转换)。
@@ -876,17 +886,17 @@ Snippets 是提高编码效率的利器，尤其对于后端开发中常见的�
 
 # 4.6 Edit code: Workspaces
 
-- **What is a Workspace**: A collection of one or more folders opened in VS Code.
-- **Single-folder Workspace**: The most common, directly opening a project folder.
-- **Multi-root Workspaces**:
-  - Defined by a `.code-workspace` file, can contain multiple unrelated project folders.
-  - **Scenario**: Microservices architecture, front-end/back-end separation projects, convenient management of all related code in one VS Code window.
-- **Workspace Advantages**:
-  - **Project-level Configuration**: Independent settings, tasks, debug configurations, does not affect global settings.
-  - **UI State Saving**: Remembers opened files, layout, etc.
-  - **Extension Enabling/Disabling**: Extensions can be enabled or disabled for specific workspaces.
-  - **Team Collaboration**: `.vscode` folder and `.code-workspace` file can be committed to Git to unify the development environment for the team.
-- **Workspace Trust**: A security mechanism to ensure safe code execution.
+- **什么是工作区 (Workspace)**: VS Code 中打开的一个或多个文件夹的集合。
+- **单文件夹工作区**: 最常见，直接打开一个项目文件夹。
+- **多根工作区 (Multi-root Workspaces)**:
+  - 通过 `.code-workspace` 文件定义，可包含多个不相关的项目文件夹。
+  - **场景**: 微服务架构、前端/后端分离项目，方便在一个 VS Code 窗口中管理所有相关代码。
+- **工作区优势**:
+  - **项目级配置**: 独立的设置、任务、调试配置，不影响全局。
+  - **UI 状态保存**: 记住打开的文件、布局等。
+  - **扩展启用/禁用**: 可为特定工作区启用或禁用扩展。
+  - **团队协作**: `.vscode` 文件夹和 `.code-workspace` 文件可提交到 Git，统一团队开发环境。
+- **工作区信任 (Workspace Trust)**: 安全机制，确保代码安全执行。
 
 <!--
 工作区是VS Code中一个非常重要的概念，尤其对于后端开发者来说，经常会涉及到多模块、多服务的项目。
@@ -907,18 +917,18 @@ Snippets 是提高编码效率的利器，尤其对于后端开发中常见的�
 
 # 5.1 Build, Debug, Test: Tasks
 
-- **What are Tasks**: A mechanism to automate the running of external tools (like compilers, build tools, test runners) within VS Code.
-- **`tasks.json`**: The configuration file for tasks, located in the `.vscode` folder at the workspace root.
-- **Core Properties**:
-  - `label`: The name of the task.
-  - `type`: `shell` (executes shell commands) or `process` (executes processes).
-  - `command`: The command to execute.
-  - `group`: Task group (like `build`, `test`), for quick running.
-  - `presentation`: Controls how the task output is displayed in the terminal.
-- **Problem Matchers**:
-  - Scans task output and shows errors and warnings in the "Problems" panel and editor.
-  - VS Code has built-in problem matchers for various languages (like `$go`, `$tsc`).
-- **Compound Tasks**: Chain multiple tasks together using the `dependsOn` property to create complex build workflows.
+- **什么是任务 (Tasks)**: 在 VS Code 内部运行外部工具（如编译器、构建工具、测试运行器）的自动化机制。
+- **`tasks.json`**: 任务的配置文件，位于工作区根目录的 `.vscode` 文件夹下。
+- **核心属性**:
+  - `label`: 任务名称。
+  - `type`: `shell` (执行 shell 命令) 或 `process` (执行进程)。
+  - `command`: 要执行的命令。
+  - `group`: 任务分组（如 `build`, `test`），方便快速运行。
+  - `presentation`: 控制任务输出在终端的显示方式。
+- **问题匹配器 (Problem Matchers)**:
+  - 扫描任务输出，将错误和警告显示在“问题”面板和编辑器中。
+  - VS Code 内置了多种语言的问题匹配器（如 `$go`, `$tsc`）。
+- **复合任务 (Compound Tasks)**: 使用 `dependsOn` 属性串联多个任务，实现复杂的构建流程。
 
 <!--
 任务是VS Code自动化开发流程的核心，对于后端开发尤其重要，因为我们经常需要编译、打包、运行测试。
@@ -944,18 +954,19 @@ Snippets 是提高编码效率的利器，尤其对于后端开发中常见的�
 
 # 5.2 Build, Debug, Test: Debugging
 
-- **Core Debugging Features**:
-  - **Breakpoints**: Pause execution at a specific line.
-  - **Step Over/Into/Out**: Control the execution flow line by line.
-  - **Watch**: Monitor the value of variables and expressions.
-  - **Call Stack**: Inspect the function call chain.
-  - **Debug Console**: Execute code in the context of the debuggee.
-- **`launch.json`**: The configuration file for defining debugging sessions.
-- **Zero-configuration Debugging**: For many simple cases (like a single Go file or a Java class with a `main` method), you can start debugging without any configuration (`F5`).
-- **Advanced Debugging**:
-  - **Conditional Breakpoints**: Break only when a certain condition is met.
-  - **Logpoints**: Log a message to the console without pausing execution.
-  - **Attach to Process**: Attach the debugger to an already running process.
+- **核心**: VS Code 提供强大的调试支持，通过扩展实现对各种语言的调试。
+- **调试界面**:
+  - **运行和调试视图 (Run and Debug View)**: `Ctrl+Shift+D`，显示变量、调用栈、断点等。
+  - **调试工具栏**: 控制调试流程（继续、单步、停止等）。
+  - **调试控制台 (Debug Console)**: 交互式评估表达式，查看日志。
+- **关键概念**:
+  - **`launch.json`**: 调试配置文件，定义如何启动或附加调试会话。
+  - **断点 (Breakpoints)**:
+    - **普通断点**: 点击行号旁边的空白区域设置，暂停执行。
+    - **条件断点 (Conditional Breakpoints)**: 满足特定条件时才触发。
+    - **日志点 (Logpoints)**: 不中断执行，仅输出日志信息。
+- **数据检查**: 在调试过程中，查看变量值、监视表达式、修改变量值。
+- **多目标调试**: 同时调试多个进程（如前端+后端）。
 
 <!--
 调试是解决代码问题不可或缺的工具。VS Code的调试功能非常强大且灵活。
@@ -978,12 +989,17 @@ Snippets 是提高编码效率的利器，尤其对于后端开发中常见的�
 
 # 5.3 Build, Debug, Test: Testing
 
-- **Test Explorer**: A dedicated view in the Activity Bar for discovering, running, and managing tests.
-- **Test Framework Integration**: Extensions provide rich integration with popular testing frameworks like JUnit for Java and the built-in `testing` package for Go.
-- **Running and Debugging Tests**:
-  - Run or debug individual tests, test suites, or all tests directly from the Test Explorer or from CodeLens annotations in the editor.
-- **Viewing Test Results**: Test results are displayed directly in the Test Explorer and in the editor with detailed error messages and output.
-- **Test Coverage**: Some extensions can display test coverage information, highlighting which lines of code are covered by tests.
+- **核心**: VS Code 提供强大的测试支持，通过扩展实现对各种测试框架的集成。
+- **测试视图 (Test Explorer)**: `Ctrl+Shift+T` (或点击活动栏的烧杯图标)，集中管理和运行项目中的测试。
+  - **自动测试发现**: 许多测试扩展能自动发现项目中的测试用例。
+  - **树状视图**: 清晰展示测试的层级结构。
+- **运行与调试测试**:
+  - 可从 Test Explorer 或编辑器行号旁边的“播放”图标直接运行/调试单个测试或测试套件。
+  - 失败的测试会显示错误信息，并可点击跳转到代码。
+- **测试覆盖率 (Test Coverage)**:
+  - 如果测试扩展支持，可运行测试并查看代码覆盖率。
+  - 覆盖率结果可在 Test Coverage 视图、编辑器行号旁或文件浏览器中显示。
+- **AI 辅助测试**: GitHub Copilot 可帮助生成测试代码、设置测试框架，甚至修复失败的测试。
 
 <!--
 测试是保证代码质量的重要环节。VS Code的测试集成让测试变得更加便捷。
@@ -1001,18 +1017,19 @@ Snippets 是提高编码效率的利器，尤其对于后端开发中常见的�
   - 提及如何将测试任务集成到 `tasks.json` 中，实现自动化测试。
 -->
 
+
+
 ---
 
 # 6.1 GitHub Copilot: Overview
 
-- **Your AI Pair Programmer**: An AI-powered tool that helps you write code faster and with less work.
-- **Core Capabilities**:
-  - **Code Completion**: Suggests single lines or entire functions as you type.
-  - **Code Generation**: Generates code from natural language comments.
-  - **Answering Questions**: Provides answers to coding questions directly in the editor.
-  - **Explaining and Fixing Code**: Explains complex code snippets and suggests fixes for bugs.
-- **Powered by OpenAI Codex**: Trained on a massive dataset of natural language and public source code.
-- **Integration**: Deeply integrated into VS Code, available as an extension.
+- **你的 AI 结对程序员**: GitHub Copilot 是一个由 AI 驱动的编码助手，集成在 VS Code 中。
+- **核心能力**:
+  - **代码补全 (Code Completions)**: 根据上下文提供行内代码建议，从单行到整个函数实现。
+  - **自然语言聊天 (Natural Language Chat)**: 通过聊天界面与代码库交互，提问、解释代码、指定代码更改。
+  - **智能操作 (Smart Actions)**: 增强 VS Code 中预定义的开发任务，如生成提交信息、重命名符号、修复错误。
+  - **自主编码 (Autonomous Coding)**: (高级功能) 能够自主规划和执行复杂的开发任务，将高层需求转化为工作代码。
+- **工作原理**: 基于公共代码仓库训练，支持大多数编程语言和框架。
 
 <!--
 GitHub Copilot 是近年来最受关注的开发工具之一，它极大地改变了开发者的工作方式。本页将介绍其核心功能。
