@@ -178,9 +178,9 @@ layoutClass: gap-16
 
 # Table of contents
 
-<Transform :scale="0.68">
+<Transform :scale="0.58">
 
-<Toc text-sm minDepth="1" maxDepth="2" columns="5" />
+<Toc text-sm minDepth="1" maxDepth="2" columns="4" mode="all"/>
 
 </Transform>
 
@@ -313,22 +313,6 @@ transition: slide-left | slide-right
 
 
 
----
-
-## Slide 7: Installation & Getting Started (5 minutes)
-
-*   **Objective:** Guide users through installation and familiarize them with VS Code's user interface.
-*   **Content:**
-    *   **Installation:**
-        *   Download from official website: [Download the Insiders build](https://code.visualstudio.com/insiders)
-        *   Install "codei" command to command line (Command Palette: `Shell Command: Install 'code-insider' command in PATH`)
-    *   **User Interface (UI) Tour:**
-        *   **Activity Bar:** Files, Search, Git, Debug, Extensions
-        *   **Side Bar:** Displays detailed information for the active view
-        *   **Editor:** Where you write code
-        *   **Panel:** Terminal, Output, Problems, Debug Console
-        *   **Status Bar:** Git branch, errors/warnings, language mode
-    *   **Command Palette:** `Ctrl+Shift+P` / `Cmd+Shift+P` - The central nervous system of VS Code
 
 ---
 layout: "center"
@@ -374,8 +358,31 @@ We will strictly follow the structure of the official documentation to ensure a 
 -->
 
 ---
+level: 2
+---
 
-# 1.2 Setup: Windows Installation
+## 1.2 Installation & Getting Started (5 minutes)
+
+*   **Objective:** Guide users through installation and familiarize them with VS Code's user interface.
+*   **Content:**
+    *   **Installation:**
+        *   Download from official website: [Download the Insiders build](https://code.visualstudio.com/insiders)
+        *   Install "codei" command to command line (Command Palette: `Shell Command: Install 'code-insider' command in PATH`)
+    *   **User Interface (UI) Tour:**
+        *   **Activity Bar:** Files, Search, Git, Debug, Extensions
+        *   **Side Bar:** Displays detailed information for the active view
+        *   **Editor:** Where you write code
+        *   **Panel:** Terminal, Output, Problems, Debug Console
+        *   **Status Bar:** Git branch, errors/warnings, language mode
+    *   **Command Palette:** `Ctrl+Shift+P` / `Cmd+Shift+P` - The central nervous system of VS Code
+
+
+---
+level: 2
+---
+
+
+# 1.3 Setup: Windows Installation
 
 - **Installer Types**:
   - **User Setup**: **Recommended**. No administrator privileges required, installs in the user directory, and provides smoother updates.
@@ -416,6 +423,9 @@ We will strictly follow the structure of the official documentation to ensure a 
 -->
 
 ---
+level: 2
+---
+
 
 # 2.2 Get Started: User Interface
 
@@ -444,6 +454,9 @@ We will strictly follow the structure of the official documentation to ensure a 
 -->
 
 ---
+level: 2
+---
+
 
 # 2.3 Get Started: Personalize VS Code
 
@@ -467,6 +480,9 @@ We will strictly follow the structure of the official documentation to ensure a 
 -->
 
 ---
+level: 2
+---
+
 
 # 2.4 Get Started: Install Extensions
 
@@ -491,6 +507,9 @@ We will strictly follow the structure of the official documentation to ensure a 
 -->
 
 ---
+level: 2
+---
+
 
 # 2.5 Get Started: Tips and Tricks
 
@@ -540,6 +559,9 @@ We will strictly follow the structure of the official documentation to ensure a 
 -->
 
 ---
+level: 2
+---
+
 
 # 3.2 Configure: Custom Layout
 
@@ -560,6 +582,9 @@ We will strictly follow the structure of the official documentation to ensure a 
 -->
 
 ---
+level: 2
+---
+
 
 # 3.3 Configure: Keyboard Shortcuts
 
@@ -580,6 +605,9 @@ We will strictly follow the structure of the official documentation to ensure a 
 -->
 
 ---
+level: 2
+---
+
 
 # 3.4 Configure: Settings
 
@@ -607,6 +635,9 @@ We will strictly follow the structure of the official documentation to ensure a 
 
 
 ---
+level: 2
+---
+
 
 # 3.5 Configure: Settings Sync
 
@@ -635,6 +666,9 @@ We will strictly follow the structure of the official documentation to ensure a 
 
 
 ---
+level: 2
+---
+
 
 # 3.6 Configure: Extension Marketplace
 
@@ -658,6 +692,9 @@ We will strictly follow the structure of the official documentation to ensure a 
 -->
 
 ---
+level: 2
+---
+
 
 # 3.7 Configure: Themes
 
@@ -688,6 +725,9 @@ We will strictly follow the structure of the official documentation to ensure a 
 
 
 ---
+level: 2
+---
+
 
 # 3.8 Configure: Profiles
 
@@ -717,6 +757,9 @@ Profiles 是一个非常强大的功能，尤其适合需要处理多种技术�
 
 
 ---
+level: 2
+---
+
 
 # 3.9 Configure: Telemetry
 
@@ -738,6 +781,9 @@ Profiles 是一个非常强大的功能，尤其适合需要处理多种技术�
 -->
 
 ---
+level: 1
+---
+
 
 # 4.1 Edit code: Basic Editing
 
@@ -762,6 +808,9 @@ Profiles 是一个非常强大的功能，尤其适合需要处理多种技术�
 -->
 
 ---
+level: 2
+---
+
 
 # 4.2 Edit code: IntelliSense
 
@@ -786,6 +835,9 @@ IntelliSense 是现代IDE的基石，也是VS Code提高开发效率的关键。
 -->
 
 ---
+level: 2
+---
+
 
 # 4.3 Edit code: Code Navigation
 
@@ -817,6 +869,9 @@ IntelliSense 是现代IDE的基石，也是VS Code提高开发效率的关键。
 -->
 
 ---
+level: 2
+---
+
 
 # 4.4 Edit code: Refactoring
 
@@ -842,6 +897,9 @@ IntelliSense 是现代IDE的基石，也是VS Code提高开发效率的关键。
 -->
 
 ---
+level: 2
+---
+
 
 # 4.5 Edit code: Snippets
 
@@ -873,6 +931,9 @@ Snippets 是提高编码效率的利器，尤其对于后端开发中常见的�
 
 
 ---
+level: 2
+---
+
 
 # 4.6 Edit code: Workspaces
 
@@ -941,6 +1002,9 @@ Snippets 是提高编码效率的利器，尤其对于后端开发中常见的�
 -->
 
 ---
+level: 2
+---
+
 
 # 5.2 Build, Debug, Test: Debugging
 
@@ -975,6 +1039,9 @@ Snippets 是提高编码效率的利器，尤其对于后端开发中常见的�
 -->
 
 ---
+level: 2
+---
+
 
 # 5.3 Build, Debug, Test: Testing
 
@@ -1029,6 +1096,9 @@ GitHub Copilot 是近年来最受关注的开发工具之一，它极大地改�
 -->
 
 ---
+level: 2
+---
+
 
 # 6.2 GitHub Copilot: Customize Copilot
 
@@ -1063,6 +1133,9 @@ GitHub Copilot 是近年来最受关注的开发工具之一，它极大地改�
 -->
 
 ---
+level: 2
+---
+
 
 # 6.3 GitHub Copilot: Language Models
 
@@ -1091,6 +1164,9 @@ GitHub Copilot 是近年来最受关注的开发工具之一，它极大地改�
 -->
 
 ---
+level: 2
+---
+
 
 # 6.4 GitHub Copilot: Tips & Tricks
 
@@ -1124,6 +1200,9 @@ GitHub Copilot 是近年来最受关注的开发工具之一，它极大地改�
 -->
 
 ---
+level: 2
+---
+
 
 # 6.5 GitHub Copilot: Frequently Asked Questions (FAQ)
 
@@ -1154,7 +1233,6 @@ GitHub Copilot 是近年来最受关注的开发工具之一，它极大地改�
 引导学员自学：鼓励学员深入学习Git的基本概念和命令，并结合VS Code的SCM功能进行实践。特别是对于合并冲突的解决和Diff视图的使用，可以通过实际操作来加深理解。同时，可以探索VS Code市场中更多的SCM扩展，以满足特定项目或团队的需求。
 -->
 
----
 
 ---
 layout: center
@@ -1165,6 +1243,9 @@ layout: center
 ## Version Control: The Core of Code Collaboration
 
 ---
+level: 2
+---
+
 
 # 7.1 Source Control: Overview
 
@@ -1197,10 +1278,11 @@ layout: center
 引导学员自学：鼓励学员深入学习Git的基本概念和命令，并结合VS Code的SCM功能进行实践。特别是对于合并冲突的解决和Diff视图的使用，可以通过实际操作来加深理解。同时，可以探索VS Code市场中更多的SCM扩展，以满足特定项目或团队的需求。
 -->
 
----
-
 
 ---
+level: 2
+---
+
 
 # 7.2 Source Control: Git Basics
 
@@ -1227,10 +1309,11 @@ layout: center
 -->
 
 ---
-
+level: 2
 ---
 
-# Source Control: Frequently Asked Questions (FAQ)
+
+# 7.3 Source Control: Frequently Asked Questions (FAQ)
 
 ## Resolve Common Confusions in Git & GitHub Usage
 
@@ -1264,6 +1347,9 @@ layout: center
 ## A Powerful Tool for Command Line Interaction
 
 ---
+level: 2
+---
+
 
 # 8.1 Terminal: Getting Started
 
@@ -1291,6 +1377,9 @@ layout: center
 -->
 
 ---
+level: 2
+---
+
 
 # 8.2 Terminal: Fundamentals
 
@@ -1327,6 +1416,9 @@ layout: center
 -->
 
 ---
+level: 2
+---
+
 
 # 8.3 Terminal: Terminal Profiles
 
@@ -1364,6 +1456,9 @@ layout: center
 -->
 
 ---
+level: 2
+---
+
 
 # 8.4 Terminal: Shell Integration
 
@@ -1402,6 +1497,9 @@ layout: center
 -->
 
 ---
+level: 2
+---
+
 
 # 8.5 Terminal: Appearance
 
@@ -1434,6 +1532,9 @@ layout: center
 -->
 
 ---
+level: 2
+---
+
 
 # 8.6 Terminal: Advanced Features
 
@@ -1476,22 +1577,25 @@ layout: center
 layout: center
 ---
 
-# Languages
+# 9. Languages
 
-## 多语言支持，赋能全栈开发
+## Multi-language Support, Empowering Full-Stack Development
 
 ---
+level: 2
+---
 
-# Languages: 概述
 
-## VS Code的语言支持与扩展
+# 9.1 Languages: OverView
 
-- **广泛的语言支持**: VS Code原生支持JavaScript、TypeScript、CSS、HTML等，并通过扩展市场支持数百种编程语言。
-- **语言特性**: 提供语法高亮、括号匹配、智能补全（IntelliSense）、代码导航、调试、重构等。
-- **AI增强**: GitHub Copilot提供AI驱动的代码补全和辅助功能。
-- **语言模式切换**: 快速切换当前文件的语言模式。
-- **语言标识符**: 了解VS Code如何关联语言模式与语言标识符。
-- **文件关联**: 通过`files.associations`设置将文件扩展名关联到特定语言。
+## Language Support and Extensions in VS Code
+
+- **Extensive Language Support**: VS Code natively supports JavaScript, TypeScript, CSS, HTML, etc., and supports hundreds of programming languages through the extension marketplace.
+- **Language Features**: Provides syntax highlighting, bracket matching, intelligent completion (IntelliSense), code navigation, debugging, refactoring, etc.
+- **AI Enhancement**: GitHub Copilot provides AI-driven code completion and assistance features.
+- **Language Mode Switching**: Quickly switch the language mode of the current file.
+- **Language Identifiers**: Understand how VS Code associates language modes with language identifiers.
+- **File Associations**: Use the `files.associations` setting to associate file extensions with specific languages.
 
 <!--
 本Slide将概述VS Code对各种编程语言的广泛支持，以及如何通过内置功能和扩展来增强开发体验。
@@ -1511,18 +1615,21 @@ layout: center
 -->
 
 ---
+level: 2
+---
 
-# Languages: Java
 
-## VS Code中的Java开发
+# 9.2 Languages: Java
 
-- **全面的Java支持**: 通过扩展包提供代码补全、重构、Linting、格式化、代码片段等功能。
-- **快速启动**: 推荐使用Java Coding Pack或Extension Pack for Java快速搭建开发环境。
-- **JDK安装**: 需要安装JDK 1.8或更高版本，并推荐多种JDK来源。
-- **项目管理**: 支持轻量级模式和标准模式，理解VS Code工作区与Java项目的关系。
-- **编辑增强**: 代码导航、智能补全（包括IntelliCode和Copilot）、代码片段。
-- **调试与测试**: 强大的Java调试器和测试运行器，支持高级调试功能和JUnit/TestNG。
-- **框架集成**: 深度集成Spring Boot、Tomcat、Jetty等流行框架。
+## Java Development in VS Code
+
+- **Comprehensive Java Support**: Provides code completion, refactoring, linting, formatting, code snippets, and more through extension packs.
+- **Quick Start**: Recommended to use Java Coding Pack or Extension Pack for Java to quickly set up the development environment.
+- **JDK Installation**: Requires JDK 1.8 or higher, with multiple recommended JDK sources.
+- **Project Management**: Supports lightweight mode and standard mode, understanding the relationship between VS Code workspace and Java projects.
+- **Editing Enhancements**: Code navigation, smart completion (including IntelliCode and Copilot), code snippets.
+- **Debugging and Testing**: Powerful Java debugger and test runner, supporting advanced debugging features and JUnit/TestNG.
+- **Framework Integration**: Deep integration with Spring Boot, Tomcat, Jetty, and other popular frameworks.
 
 <!--
 本Slide将详细介绍VS Code中对Java开发的全面支持，以及如何利用其功能提升Java开发效率。
@@ -1542,21 +1649,24 @@ layout: center
 -->
 
 ---
+level: 2
+---
 
-# Languages: Go
 
-## VS Code中的Go开发
+# 9.3 Languages: Go
 
-- **Go扩展**: 提供IntelliSense、代码导航、符号搜索、测试、调试等功能。
-- **gopls**: Go语言服务器，提供核心语言特性，支持语义化高亮。
-- **智能感知**: 自动补全、悬停信息、签名帮助，提升编码效率。
-- **代码导航**: 快速跳转定义、类型定义、引用、调用层级、实现等。
-- **构建与诊断**: 检测构建和vet错误，支持Lint工具集成。
-- **格式化**: 支持Go文件格式化，可配置保存时自动格式化。
-- **测试**: 通过Test UI和CodeLens运行、调试Go测试，支持测试覆盖率。
-- **包导入**: 自动组织导入，支持添加缺失的包。
-- **重构**: 支持变量、函数等重构操作。
-- **调试**: 利用Delve调试器，支持本地/远程调试、表达式求值、Disassembly视图。
+## Go Development in VS Code
+
+- **Go Extension**: Provides IntelliSense, code navigation, symbol search, testing, debugging, and more.
+- **gopls**: Go language server, provides core language features, supports semantic highlighting.
+- **Intellisense**: Auto-completion, hover information, signature help, improving coding efficiency.
+- **Code Navigation**: Quickly jump to definitions, type definitions, references, call hierarchy, implementations, etc.
+- **Build and Diagnostics**: Detects build and vet errors, supports Lint tool integration.
+- **Formatting**: Supports Go file formatting, can be configured to format automatically on save.
+- **Testing**: Run and debug Go tests through Test UI and CodeLens, supports test coverage.
+- **Package Imports**: Automatically organizes imports, supports adding missing packages.
+- **Refactoring**: Supports refactoring operations for variables, functions, etc.
+- **Debugging**: Utilizes the Delve debugger, supports local/remote debugging, expression evaluation, Disassembly view.
 
 <!--
 本Slide将介绍VS Code中对Go语言开发的强大支持，以及如何利用Go扩展提升Go开发效率。
@@ -1578,16 +1688,16 @@ layout: center
 
 ---
 
-# Java: Getting Started
+# 10. Java: Getting Started
 
-## 快速开始你的Java之旅
+## Quick Start Your Java Journey
 
-- **设置VS Code**: 推荐使用Java Coding Pack或Extension Pack for Java快速安装所需工具和扩展。
-- **JDK安装**: 确保安装JDK 1.8或更高版本，并了解多种JDK来源。
-- **创建源代码文件**: 学习如何创建Java文件，并了解Java语言服务器的自动加载。
-- **创建Java项目**: 通过`Java: Create Java Project`命令创建项目，支持多种构建工具。
-- **编辑源代码**: 利用代码片段、IntelliSense和重构功能提升编码效率。
-- **运行与调试**: 设置断点，通过“运行|调试”按钮或快捷键启动调试会话，支持高级调试功能。
+- **Set up VS Code**: It is recommended to use the Java Coding Pack or Extension Pack for Java to quickly install the required tools and extensions.
+- **JDK Installation**: Make sure to install JDK 1.8 or higher, and learn about various JDK sources.
+- **Create Source Code Files**: Learn how to create Java files and understand the automatic loading of the Java language server.
+- **Create Java Project**: Create a project using the `Java: Create Java Project` command, supporting multiple build tools.
+- **Edit Source Code**: Use code snippets, IntelliSense, and refactoring features to improve coding efficiency.
+- **Run and Debug**: Set breakpoints and start debugging sessions via the "Run|Debug" button or shortcut keys, supporting
 
 <!--
 本Slide将引导学员如何在VS Code中快速开始Java开发，从环境设置到编写、运行和调试第一个Java程序。
@@ -1608,23 +1718,26 @@ layout: center
 -->
 
 ---
+level: 2
+---
 
-# Java: Navigate and Edit
 
-## 导航与编辑Java源代码
+# 10.1 Java: Navigate and Edit
 
-- **代码导航**: 利用Outline视图、Projects视图、Call Hierarchy、Type Hierarchy等进行代码导航。
-- **符号搜索**: 在工作区或当前文件中快速搜索符号。
-- **Peek Definition**: 无需离开当前位置即可查看符号定义。
-- **Go to Definition**: 直接跳转到符号定义处。
-- **Go to Super Implementation**: 快速查看类实现和方法重写。
-- **折叠区域**: 折叠或展开代码片段，优化代码视图。
-- **智能选择**: 根据语义信息扩展或收缩选择范围。
-- **语义高亮**: 基于Java语言服务提供更精确的代码着色。
-- **Spring Boot导航**: 针对Spring Boot项目提供增强导航功能。
-- **代码编辑**: IntelliSense智能补全、代码片段、快速修复、重构等。
-- **创建新文件**: 支持通过模板创建Java源文件，自动填充类体和包信息。
-- **代码片段**: 丰富的Java代码片段和后缀补全功能，提高编码效率。
+## Navigating and Editing Java Source Code
+
+- **Code Navigation**: Utilize Outline view, Projects view, Call Hierarchy, Type Hierarchy, etc. for code navigation.
+- **Symbol Search**: Quickly search for symbols in the workspace or current file.
+- **Peek Definition**: View symbol definitions without leaving the current location.
+- **Go to Definition**: Jump directly to the definition of a symbol.
+- **Go to Super Implementation**: Quickly view class implementations and method overrides.
+- **Folding Regions**: Collapse or expand code segments to optimize code view.
+- **Smart Selection**: Expand or contract selection range based on semantic information.
+- **Semantic Highlighting**: Provide more precise code coloring based on Java language service.
+- **Spring Boot Navigation**: Enhanced navigation features for Spring Boot projects.
+- **Code Editing**: IntelliSense smart completion, code snippets, quick fixes, refactoring, etc.
+- **Creating New Files**: Support for creating Java source files from templates, automatically populating class bodies and package information.
+- **Code Snippets**: Rich Java code snippets and postfix completion features to improve coding efficiency.
 
 <!--
 本Slide将详细介绍VS Code中Java源代码的导航和编辑功能，帮助学员高效地编写和理解Java代码。
@@ -1653,15 +1766,18 @@ layout: center
 -->
 
 ---
+level: 2
+---
 
-# Java: Refactoring
+         
+# 10.2 Java: Refactoring
 
-## Java代码重构与源操作
+## Java Refactoring and Source Actions
 
-- **重构**: 提供了多种重构操作，如赋值给变量、匿名类与Lambda表达式转换、增强for循环、提取常量/字段/方法/局部变量、内联常量/局部变量/方法、反转布尔表达式、移动、重命名等。
-- **源操作**: 提供了生成构造函数、委托方法、覆盖/实现方法、组织导入、生成Getter/Setter、生成`hashCode()`和`equals()`、生成`toString()`、将修饰符改为final等功能。
-- **其他代码操作**: 修复不可访问引用、创建不存在的包等。
-- **便捷访问**: 通过灯泡图标或右键菜单的“Source Action...”访问。
+- **Refactoring**: Provides various refactoring operations, such as assign to variable, convert between anonymous class and Lambda expression, enhanced for loop, extract constant/field/method/local variable, inline constant/local variable/method, invert boolean expression, move, rename, etc.
+- **Source Actions**: Provides features like generate constructor, delegate methods, override/implement methods, organize imports, generate Getter/Setter, generate `hashCode()` and `equals()`, generate `toString()`, change modifier to final, etc.
+- **Other Code Actions**: Fix inaccessible references, create non-existent packages, etc.
+- **Easy Access**: Access via the lightbulb icon or the "Source Action..." in the right-
 
 <!--
 本Slide将详细介绍VS Code中Java代码的重构（Refactoring）和源操作（Source Actions）功能，这些功能可以帮助开发者更高效地修改和优化代码。
@@ -1690,15 +1806,18 @@ layout: center
 -->
 
 ---
+level: 2
+---
 
-# Java: Formatting and Linting
 
-## Java代码格式化与Linting
+# 10.3 Java: Formatting and Linting
 
-- **格式化**: 支持Eclipse格式化配置文件，可导入现有配置文件或编辑内置配置文件。
-- **SonarLint**: 实时检测代码中的Bug和安全漏洞，提供详细解释和修复建议。
-- **Checkstyle**: 使用Checkstyle配置检查代码风格，支持实时Linting和批量检查。
-- **便捷访问**: 通过命令或状态栏图标快速访问和配置。
+## Java Code Formatting and Linting
+
+- **Formatting**: Supports Eclipse formatting configuration files, can import existing configuration files or edit built-in configuration files.
+- **SonarLint**: Real-time detection of bugs and security vulnerabilities in the code, providing detailed explanations and fix suggestions.
+- **Checkstyle**: Check code style using Checkstyle configuration, supporting real-time linting and batch checking.
+- **Easy Access**: Quick access and configuration through commands or status bar icons.
 
 <!--
 本Slide将介绍VS Code中Java代码的格式化（Formatting）和Linting功能，帮助学员保持代码风格一致性并发现潜在问题。
@@ -1718,19 +1837,22 @@ layout: center
 -->
 
 ---
+level: 2
+---
 
-# Java: Project Management
 
-## Java项目管理与依赖
+# 10.4 Java: Project Management
 
-- **项目视图**: 通过“Java Projects”视图管理项目和依赖，支持层级和平面视图切换。
-- **创建与导入项目**: 快速创建新Java项目，或导入现有Maven/Gradle项目。
-- **导出JAR**: 支持从项目视图或命令导出JAR文件。
-- **配置运行时**: 灵活配置项目使用的JDK版本，支持多JDK环境。
-- **配置Classpath**: 为非托管文件夹手动配置Classpath。
-- **依赖管理**: 为Maven项目添加依赖，为非托管文件夹管理JAR库。
-- **轻量级模式**: 快速启动和编辑源文件，支持与标准模式切换。
-- **构建状态**: 实时查看Java语言服务器的构建任务状态。
+## Java Project Management and Dependencies
+
+- **Project View**: Manage projects and dependencies through the "Java Projects" view, supporting both hierarchical and flat view switching.
+- **Create and Import Projects**: Quickly create new Java projects or import existing Maven/Gradle projects.
+- **Export JAR**: Supports exporting JAR files from the project view or via commands.
+- **Configure Runtime**: Flexibly configure the JDK version used by the project, supporting multi-JDK environments.
+- **Configure Classpath**: Manually configure the classpath for unmanaged folders.
+- **Dependency Management**: Add dependencies for Maven projects and manage JAR libraries for unmanaged folders.
+- **Lightweight Mode**: Quickly start and edit source files, with support for switching between lightweight and standard modes.
+- **Build Status**: View the build task status of the Java language server in
 
 <!--
 本Slide将详细介绍VS Code中Java项目管理和依赖管理的功能，帮助学员高效地组织和维护Java项目。
@@ -1745,16 +1867,19 @@ layout: center
 -->
 
 ---
+level: 2
+---
 
-# Java: Build Tools
 
-## VS Code中的Java构建工具
+# 10.5 Java: Build Tools
 
-- **Maven支持**: 通过Maven for Java扩展提供Maven项目探索、命令执行、依赖管理、项目生成等功能。
-- **Gradle支持**: 通过Gradle for Java扩展提供Gradle项目导入、任务管理、依赖查看、构建文件编辑等功能。
-- **构建服务器**: Gradle Build Server确保构建任务与命令行一致。
-- **测试委托**: 支持将测试执行委托给Gradle。
-- **其他构建工具**: 提及Bazel等其他构建工具的扩展支持。
+## Java Build Tools in VS Code
+
+- **Maven Support**: Provides Maven project exploration, command execution, dependency management, project generation, and more through the Maven for Java extension.
+- **Gradle Support**: Provides Gradle project import, task management, dependency viewing, build file editing, and more through the Gradle for Java extension.
+- **Build Server**: Gradle Build Server ensures build tasks are consistent with the command line.
+- **Test Delegation**: Supports delegating test execution to Gradle.
+- **Other Build Tools**: Mentions extension support for other build tools such as Bazel.
 
 <!--
 本Slide将介绍VS Code中对Java构建工具的支持，重点关注Maven和Gradle。
@@ -1779,22 +1904,25 @@ layout: center
 -->
 
 ---
+level: 2
+---
 
-# Java: Run and Debug
 
-## Java应用程序的运行与调试
+# 10.6 Java: Run and Debug
 
-- **Debugger for Java**: 基于Java Debug Server的轻量级调试器，提供丰富的调试功能。
-- **安装与配置**: 通过Extension Pack for Java安装，支持自动生成和自定义`launch.json`配置。
-- **启动调试**: 多种方式启动调试会话，包括CodeLens、编辑器菜单和F5快捷键。
-- **单文件调试**: 支持调试单个Java文件，无需项目配置。
-- **调试会话输入**: 可配置在集成终端或外部终端进行输入。
-- **断点**: 支持行断点、条件断点、数据断点、日志点和触发断点。
-- **表达式求值**: 在WATCH窗口和Debug Console中评估表达式。
-- **热代码替换 (HCR)**: 调试时无需重启JVM即可替换代码，支持手动、自动和禁用模式。
-- **步进过滤**: 过滤掉不希望单步调试的类或方法。
-- **配置选项**: 丰富的`launch.json`配置选项，用于自定义JVM参数、环境变量等。
-- **故障排除**: 常见问题及解决方案。
+## Running and Debugging Java Applications
+
+- **Debugger for Java**: A lightweight debugger based on Java Debug Server, providing rich debugging features.
+- **Installation and Configuration**: Installed through Extension Pack for Java, supports automatic generation and customization of `launch.json` configuration.
+- **Starting Debugging**: Multiple ways to start a debugging session, including CodeLens, editor menu, and F5 shortcut.
+- **Single File Debugging**: Supports debugging a single Java file without project configuration.
+- **Debugging Session Input**: Can be configured to accept input in the integrated terminal or external terminal.
+- **Breakpoints**: Supports line breakpoints, conditional breakpoints, data breakpoints, logpoints, and triggered breakpoints.
+- **Expression Evaluation**: Evaluate expressions in the WATCH window and Debug Console.
+- **Hot Code Replace (HCR)**: Replace code during debugging without restarting the JVM, supporting manual, automatic, and disabled modes.
+- **Step Filtering**: Filter out classes or methods you don't want to step through.
+- **Configuration Options**: Rich `launch.json` configuration options for customizing JVM parameters, environment variables, etc.
+- **Troubleshooting**: Common problems and solutions.
 
 <!--
 本Slide将详细介绍VS Code中Java应用程序的运行和调试功能，帮助学员高效地定位和解决代码问题。
@@ -1821,21 +1949,24 @@ layout: center
 -->
 
 ---
+level: 2
+---
 
-# Java: Testing
 
-## Java代码测试
+# 10.7 Java: Testing
 
-- **Test Runner for Java**: 轻量级扩展，支持运行和调试Java测试用例。
-- **支持框架**: 支持JUnit 4、JUnit 5和TestNG。
-- **项目设置**: 介绍如何为Maven、Gradle和非托管文件夹配置测试框架。
-- **运行/调试测试**: 通过CodeLens或Testing Explorer快速运行和调试测试用例。
-- **Testing Explorer**: 树形视图展示所有测试用例，并可查看测试结果。
-- **自定义测试配置**: 通过`java.test.config`设置自定义测试运行参数，如`args`、`classPaths`、`env`、`vmArgs`等。
-- **查看测试结果**: 在编辑器装饰和Testing Explorer中查看测试结果，并可跳转到源代码位置。
-- **生成测试**: 支持从主源代码或测试源代码生成测试用例骨架。
-- **测试导航**: 快速在测试和被测试代码之间跳转。
-- **其他测试命令与设置**: 介绍其他测试相关命令和设置。
+## Java Code Testing
+
+- **Test Runner for Java**: A lightweight extension that supports running and debugging Java test cases.
+- **Supported Frameworks**: Supports JUnit 4, JUnit 5, and TestNG.
+- **Project Setup**: Introduction to configuring test frameworks for Maven, Gradle, and non-managed folders.
+- **Running/Debugging Tests**: Quickly run and debug test cases through CodeLens or Testing Explorer.
+- **Testing Explorer**: Tree view showing all test cases and allowing viewing of test results.
+- **Custom Test Configuration**: Customize test run parameters through `java.test.config` settings, such as `args`, `classPaths`, `env`, `vmArgs`, etc.
+- **Viewing Test Results**: View test results in editor decorations and Testing Explorer, with the ability to jump to source code locations.
+- **Generating Tests**: Support for generating test case skeletons from main source code or test source code.
+- **Test Navigation**: Quickly navigate between tests and tested code.
+- **Other Test Commands and Settings**: Introduction to other test-related commands and settings.
 
 <!--
 本Slide将详细介绍VS Code中Java代码的测试功能，帮助学员高效地编写、运行和管理Java测试用例。
@@ -1855,16 +1986,19 @@ layout: center
 -->
 
 ---
+level: 2
+---
 
-# Java: Spring Boot
 
-## VS Code中的Spring Boot开发
+# 10.8 Java: Spring Boot
 
-- **扩展支持**: 推荐安装Spring Boot Extension Pack，包含Spring Boot Tools、Spring Initializr、Spring Boot Dashboard。
-- **项目创建**: 通过Spring Initializr快速生成Maven或Gradle的Spring Boot项目。
-- **项目编辑**: 支持在`pom.xml`中添加/移除依赖，提供智能提示。
-- **应用开发**: Spring Boot Tools提供丰富的语言支持，如`application.properties`、`application.yml`和`.java`文件的智能补全、导航。
-- **运行应用**: 通过Spring Boot Dashboard方便地管理和运行Spring Boot应用。
+## Spring Boot Development in VS Code
+
+- **Extension Support**: Recommended to install Spring Boot Extension Pack, including Spring Boot Tools, Spring Initializr, and Spring Boot Dashboard.
+- **Project Creation**: Quickly generate Spring Boot projects with Maven or Gradle through Spring Initializr.
+- **Project Editing**: Supports adding/removing dependencies in `pom.xml`, providing smart suggestions.
+- **Application Development**: Spring Boot Tools provides rich language support, such as smart completion and navigation for `application.properties`, `application.yml`, and `.java` files.
+- **Running Applications**: Conveniently manage and run Spring Boot applications through Spring Boot Dashboard.
 
 <!--
 本Slide将介绍VS Code中对Spring Boot开发的强大支持，以及如何利用相关扩展提升开发效率。
@@ -1881,20 +2015,23 @@ layout: center
 -->
 
 ---
+level: 2
+---
 
-# Java: Extensions
 
-## 扩展你的Java开发体验
+# 10.9 Java: Extensions
 
-- **核心Java开发**: 推荐Extension Pack for Java，包含语言支持、调试器、测试运行器、Maven、项目管理器和IntelliCode。
-- **Spring Boot扩展**: 推荐Spring Boot Extension Pack，包含Spring Boot Tools、Spring Initializr Java Support和Spring Boot Dashboard。
-- **Gradle支持**: 通过Gradle for Java扩展提供Gradle项目支持。
-- **应用服务器**: Community Server Connectors支持Tomcat、Jetty等应用服务器。
-- **MicroProfile / Quarkus**: 提供了相应的扩展包支持。
-- **其他Java IDE键位映射**: 方便从Eclipse或IntelliJ IDEA迁移的用户。
-- **远程开发与容器支持**: 推荐Remote Development、Container Tools、Kubernetes和Live Share等扩展。
-- **Azure集成**: Azure Tools Extension Pack、Azure Repos、Azure IoT Toolkit、Azure Resource Manager Tools等。
-- **搜索更多扩展**: 通过扩展视图搜索更多Java相关扩展。
+## Extend Your Java Development Experience
+
+- **Core Java Development**: Recommended Extension Pack for Java, including language support, debugger, test runner, Maven, project manager, and IntelliCode.
+- **Spring Boot Extensions**: Recommended Spring Boot Extension Pack, including Spring Boot Tools, Spring Initializr Java Support, and Spring Boot Dashboard.
+- **Gradle Support**: Provides Gradle project support through the Gradle for Java extension.
+- **Application Servers**: Community Server Connectors supports application servers such as Tomcat and Jetty.
+- **MicroProfile / Quarkus**: Provides corresponding extension packs.
+- **Other Java IDE Keymaps**: Convenient for users migrating from Eclipse or IntelliJ IDEA.
+- **Remote Development and Container Support**: Recommended extensions include Remote Development, Container Tools, Kubernetes, and Live Share.
+- **Azure Integration**: Azure Tools Extension Pack, Azure Repos, Azure IoT Toolkit, Azure Resource Manager Tools, etc.
+- **Search for More Extensions**: Search for more Java-related extensions through the extension view.
 
 <!--
 本Slide将介绍VS Code中丰富的Java扩展生态系统，帮助学员根据需求选择合适的扩展来增强开发体验。
@@ -1915,20 +2052,23 @@ layout: center
 -->
 
 ---
+level: 2
+---
 
-# Java: FAQ
 
-## Java开发常见问题解答
+# 10.10 Java: FAQ
 
-- **开源性**: 大部分Java扩展都是开源的，可在GitHub上找到对应仓库。
-- **未来功能**: 持续增加重构和Linting功能，提升性能，并欢迎社区贡献。
-- **键位映射**: 支持从其他IDE（如IntelliJ IDEA、Eclipse）导入键位映射。
-- **最新进展**: 可通过Java at Microsoft博客和扩展包发布说明获取最新信息。
-- **新Java版本支持**: 支持Java 22及更高版本，并提供预览功能配置方法。
-- **企业代理**: 配置`java.jdt.ls.vmargs`以支持企业代理环境。
-- **Visual Studio支持**: 目前无计划将Java支持扩展到Visual Studio。
-- **多语言显示**: 部分扩展支持中文显示，并欢迎贡献其他语言支持。
-- **故障排除与贡献**: 提供Java Language Server的故障排除指南和贡献方式。
+## Frequently Asked Questions for Java Development
+
+- **Open Source**: Most Java extensions are open source and can be found in corresponding GitHub repositories.
+- **Future Features**: Continuously adding refactoring and linting features, improving performance, and welcoming community contributions.
+- **Keymaps**: Supports importing keymaps from other IDEs (such as IntelliJ IDEA, Eclipse).
+- **Latest Progress**: Get the latest information through the Java at Microsoft blog and extension pack release notes.
+- **New Java Version Support**: Supports Java 22 and higher, and provides configuration methods for preview features.
+- **Enterprise Proxy**: Configure `java.jdt.ls.vmargs` to support enterprise proxy environments.
+- **Visual Studio Support**: Currently no plans to extend Java support to Visual Studio.
+- **Multi-language Display**: Some extensions support Chinese display, and contributions for other language support are welcome.
+- **Troubleshooting and Contributing**: Provides troubleshooting guide and contribution methods for the Java Language Server.
 
 <!--
 本Slide将总结VS Code中Java开发的常见问题，帮助学员解决实际操作中可能遇到的困惑。
@@ -1948,30 +2088,33 @@ layout: center
 layout: center
 ---
 
-# Reference
+# 11 Reference
 
-## 深入了解VS Code配置
+## Deep Dive into VS Code Configuration
 
 ---
+level: 2
+---
 
-# Reference: Default Keyboard Shortcuts
 
-## VS Code默认键盘快捷键参考
+# 11.1 Reference: Default Keyboard Shortcuts
 
-- **查看默认快捷键**: 可通过“Show System Keybindings”或“Open Default Keyboard Shortcuts (JSON)”查看。
-- **键盘布局**: 默认以标准美式键盘布局渲染，可配置其他键盘布局。
-- **基本编辑**: 剪切、复制、粘贴、删除行、插入行、移动行、复制行、撤销、重做、多光标操作、选择、缩进、行首/尾/文件首/尾跳转、滚动、代码折叠、注释、查找替换等。
-- **富语言编辑**: 触发建议、参数提示、格式化文档/选择、跳转定义、查看悬停信息、快速修复、跳转引用、重命名符号、智能选择、修剪尾随空格、更改语言模式等。
-- **导航**: 显示所有符号、跳转到行/文件/符号、显示问题、错误/警告导航、显示所有命令、导航编辑器组历史、前进/后退等。
-- **编辑器/窗口管理**: 新建/关闭窗口/编辑器/文件夹、循环切换编辑器组、拆分编辑器、焦点切换、移动编辑器/编辑器组等。
-- **文件管理**: 新建/打开/保存文件、关闭文件/组、重新打开关闭的编辑器、复制文件路径、在文件管理器中显示、比较文件等。
-- **显示**: 全屏、Zen模式、缩放、侧边栏可见性、显示视图（Explorer, Search, SCM, Run, Extensions, Output）、Markdown预览、集成终端切换等。
-- **搜索**: 显示搜索、文件内替换、切换大小写敏感/全字匹配/正则表达式、显示搜索详情、焦点切换搜索结果、显示历史搜索词等。
-- **搜索编辑器**: 在编辑器中打开结果、焦点搜索编辑器输入、重新搜索、删除文件结果等。
-- **首选项**: 打开设置、工作区设置、键盘快捷键、用户代码片段、选择颜色主题、配置显示语言等。
-- **调试**: 切换断点、启动/继续/暂停/单步调试等。
-- **任务**: 运行构建任务、运行测试任务等。
-- **扩展**: 安装/显示已安装/过期/推荐/流行扩展、更新所有扩展等。
+## VS Code Default Keyboard Shortcuts Reference
+
+- **View Default Shortcuts**: You can view them via "Show System Keybindings" or "Open Default Keyboard Shortcuts (JSON)".
+- **Keyboard Layout**: Rendered by default in standard US keyboard layout; other layouts can be configured.
+- **Basic Editing**: Cut, copy, paste, delete line, insert line, move line, duplicate line, undo, redo, multi-cursor operations, selection, indent, jump to line start/end/file start/end, scroll, code folding, commenting, find and replace, etc.
+- **Rich Language Editing**: Trigger suggestions, parameter hints, format document/selection, go to definition, show hover info, quick fix, go to references, rename symbol, smart select, trim trailing whitespace, change language mode, etc.
+- **Navigation**: Show all symbols, jump to line/file/symbol, show problems, error/warning navigation, show all commands, navigate editor group history, forward/backward, etc.
+- **Editor/Window Management**: New/close window/editor/folder, cycle editor groups, split editor, focus switch, move editor/editor group, etc.
+- **File Management**: New/open/save file, close file/group, reopen closed editor, copy file path, reveal in file manager, compare files, etc.
+- **Display**: Full screen, Zen mode, zoom, sidebar visibility, show views (Explorer, Search, SCM, Run, Extensions, Output), Markdown preview, integrated terminal toggle, etc.
+- **Search**: Show search, in-file replace, toggle case sensitivity/whole word/regex, show search details, focus search results, show search history, etc.
+- **Search Editor**: Open results in editor, focus search editor input, re-search, delete file results, etc.
+- **Preferences**: Open settings, workspace settings, keyboard shortcuts, user snippets, select color theme, configure display language, etc.
+- **Debugging**: Toggle breakpoint, start/continue/pause/step debugging, etc.
+- **Tasks**: Run build task, run test task, etc.
+- **Extensions**: Install/show installed/expired/recommended/popular extensions, update all extensions,
 
 <!--
 本Slide将详细介绍VS Code的默认键盘快捷键，帮助学员熟悉并高效使用VS Code的各项功能。
@@ -1993,13 +2136,16 @@ layout: center
 -->
 
 ---
+level: 2
+---
 
-# Reference: Default Settings
 
-## VS Code默认设置参考
+# 11.2 Reference: Default Settings
 
-- **默认设置**: VS Code自带一套默认设置，可通过用户或工作区设置覆盖。
-- **查看方式**: 通过“Preferences: Open Default Settings (JSON)”命令查看所有默认设置。
+## VS Code Default Settings Reference
+
+- **Default Settings**: VS Code comes with a set of default settings, which can be overridden by user or workspace settings.
+- **How to View**: View all default settings via the "Preferences: Open Default Settings (JSON)"
 
 <!--
 本Slide将介绍VS Code的默认设置，以及如何查看和理解它们。
@@ -2009,20 +2155,23 @@ layout: center
 -->
 
 ---
+level: 2
+---
 
-# Reference: Substitution Variables
 
-## VS Code中的变量替换
+# 11.3 Reference: Substitution Variables
 
-- **用途**: 在调试和任务配置文件中支持变量替换，以及部分设置。
-- **语法**: 使用`${variableName}`语法进行变量替换。
-- **预定义变量**: 提供了多种预定义变量，如`${userHome}`、`${workspaceFolder}`、`${file}`等，涵盖文件路径、工作区信息、行号、选中文本等。
-- **环境变量**: 通过`${env:Name}`引用环境变量。
-- **配置变量**: 通过`${config:Name}`引用VS Code设置。
-- **命令变量**: 通过`${command:commandID}`执行VS Code命令并获取其字符串结果。
-- **输入变量**: 通过`${input:variableID}`定义交互式输入，支持`promptString`、`pickString`和`command`类型。
-- **变量作用域**: 变量作用域默认为当前文件夹，多根工作区可通过`${workspaceFolder:FolderName}`引用其他根文件夹。
-- **替换过程**: 变量替换分两步进行，确保变量之间不相互依赖。
+## Variable Substitution in VS Code
+
+- **Purpose**: Supports variable substitution in debugging and task configuration files, as well as some settings.
+- **Syntax**: Uses `${variableName}` syntax for variable substitution.
+- **Predefined Variables**: Provides various predefined variables, such as `${userHome}`, `${workspaceFolder}`, `${file}`, etc., covering file paths, workspace information, line numbers, selected text, and more.
+- **Environment Variables**: Reference environment variables through `${env:Name}`.
+- **Configuration Variables**: Reference VS Code settings through `${config:Name}`.
+- **Command Variables**: Execute VS Code commands and get their string results through `${command:commandID}`.
+- **Input Variables**: Define interactive inputs through `${input:variableID}`, supporting `promptString`, `pickString`, and `command` types.
+- **Variable Scope**: Variable scope defaults to the current folder; in multi-root workspaces, other root folders can be referenced through `${workspaceFolder:FolderName}`.
+- **Substitution Process**: Variable substitution is done in two steps, ensuring variables do not depend on each other.
 
 <!--
 本Slide将详细介绍VS Code中变量替换的功能，以及如何在调试、任务配置和设置中使用它们。
