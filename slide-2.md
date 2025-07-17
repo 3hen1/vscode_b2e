@@ -4,20 +4,20 @@ layout: center
 
 # Languages
 
-## 多语言支持，赋能全栈开发
+## Multi-language Support, Empowering Full-Stack Development
 
 ---
 
-# Languages: 概述
+# Languages: OverView
 
-## VS Code的语言支持与扩展
+## Language Support and Extensions in VS Code
 
-- **广泛的语言支持**: VS Code原生支持JavaScript、TypeScript、CSS、HTML等，并通过扩展市场支持数百种编程语言。
-- **语言特性**: 提供语法高亮、括号匹配、智能补全（IntelliSense）、代码导航、调试、重构等。
-- **AI增强**: GitHub Copilot提供AI驱动的代码补全和辅助功能。
-- **语言模式切换**: 快速切换当前文件的语言模式。
-- **语言标识符**: 了解VS Code如何关联语言模式与语言标识符。
-- **文件关联**: 通过`files.associations`设置将文件扩展名关联到特定语言。
+- **Extensive Language Support**: VS Code natively supports JavaScript, TypeScript, CSS, HTML, etc., and supports hundreds of programming languages through the extension marketplace.
+- **Language Features**: Provides syntax highlighting, bracket matching, intelligent completion (IntelliSense), code navigation, debugging, refactoring, etc.
+- **AI Enhancement**: GitHub Copilot provides AI-driven code completion and assistance features.
+- **Language Mode Switching**: Quickly switch the language mode of the current file.
+- **Language Identifiers**: Understand how VS Code associates language modes with language identifiers.
+- **File Associations**: Use the `files.associations` setting to associate file extensions with specific languages.
 
 <!--
 本Slide将概述VS Code对各种编程语言的广泛支持，以及如何通过内置功能和扩展来增强开发体验。
@@ -40,15 +40,15 @@ layout: center
 
 # Languages: Java
 
-## VS Code中的Java开发
+## Java Development in VS Code
 
-- **全面的Java支持**: 通过扩展包提供代码补全、重构、Linting、格式化、代码片段等功能。
-- **快速启动**: 推荐使用Java Coding Pack或Extension Pack for Java快速搭建开发环境。
-- **JDK安装**: 需要安装JDK 1.8或更高版本，并推荐多种JDK来源。
-- **项目管理**: 支持轻量级模式和标准模式，理解VS Code工作区与Java项目的关系。
-- **编辑增强**: 代码导航、智能补全（包括IntelliCode和Copilot）、代码片段。
-- **调试与测试**: 强大的Java调试器和测试运行器，支持高级调试功能和JUnit/TestNG。
-- **框架集成**: 深度集成Spring Boot、Tomcat、Jetty等流行框架。
+- **Comprehensive Java Support**: Provides code completion, refactoring, linting, formatting, code snippets, and more through extension packs.
+- **Quick Start**: Recommended to use Java Coding Pack or Extension Pack for Java to quickly set up the development environment.
+- **JDK Installation**: Requires JDK 1.8 or higher, with multiple recommended JDK sources.
+- **Project Management**: Supports lightweight mode and standard mode, understanding the relationship between VS Code workspace and Java projects.
+- **Editing Enhancements**: Code navigation, smart completion (including IntelliCode and Copilot), code snippets.
+- **Debugging and Testing**: Powerful Java debugger and test runner, supporting advanced debugging features and JUnit/TestNG.
+- **Framework Integration**: Deep integration with Spring Boot, Tomcat, Jetty, and other popular frameworks.
 
 <!--
 本Slide将详细介绍VS Code中对Java开发的全面支持，以及如何利用其功能提升Java开发效率。
@@ -71,18 +71,18 @@ layout: center
 
 # Languages: Go
 
-## VS Code中的Go开发
+## Go Development in VS Code
 
-- **Go扩展**: 提供IntelliSense、代码导航、符号搜索、测试、调试等功能。
-- **gopls**: Go语言服务器，提供核心语言特性，支持语义化高亮。
-- **智能感知**: 自动补全、悬停信息、签名帮助，提升编码效率。
-- **代码导航**: 快速跳转定义、类型定义、引用、调用层级、实现等。
-- **构建与诊断**: 检测构建和vet错误，支持Lint工具集成。
-- **格式化**: 支持Go文件格式化，可配置保存时自动格式化。
-- **测试**: 通过Test UI和CodeLens运行、调试Go测试，支持测试覆盖率。
-- **包导入**: 自动组织导入，支持添加缺失的包。
-- **重构**: 支持变量、函数等重构操作。
-- **调试**: 利用Delve调试器，支持本地/远程调试、表达式求值、Disassembly视图。
+- **Go Extension**: Provides IntelliSense, code navigation, symbol search, testing, debugging, and more.
+- **gopls**: Go language server, provides core language features, supports semantic highlighting.
+- **Intellisense**: Auto-completion, hover information, signature help, improving coding efficiency.
+- **Code Navigation**: Quickly jump to definitions, type definitions, references, call hierarchy, implementations, etc.
+- **Build and Diagnostics**: Detects build and vet errors, supports Lint tool integration.
+- **Formatting**: Supports Go file formatting, can be configured to format automatically on save.
+- **Testing**: Run and debug Go tests through Test UI and CodeLens, supports test coverage.
+- **Package Imports**: Automatically organizes imports, supports adding missing packages.
+- **Refactoring**: Supports refactoring operations for variables, functions, etc.
+- **Debugging**: Utilizes the Delve debugger, supports local/remote debugging, expression evaluation, Disassembly view.
 
 <!--
 本Slide将介绍VS Code中对Go语言开发的强大支持，以及如何利用Go扩展提升Go开发效率。
@@ -137,20 +137,20 @@ layout: center
 
 # Java: Navigate and Edit
 
-## 导航与编辑Java源代码
+## Navigating and Editing Java Source Code
 
-- **代码导航**: 利用Outline视图、Projects视图、Call Hierarchy、Type Hierarchy等进行代码导航。
-- **符号搜索**: 在工作区或当前文件中快速搜索符号。
-- **Peek Definition**: 无需离开当前位置即可查看符号定义。
-- **Go to Definition**: 直接跳转到符号定义处。
-- **Go to Super Implementation**: 快速查看类实现和方法重写。
-- **折叠区域**: 折叠或展开代码片段，优化代码视图。
-- **智能选择**: 根据语义信息扩展或收缩选择范围。
-- **语义高亮**: 基于Java语言服务提供更精确的代码着色。
-- **Spring Boot导航**: 针对Spring Boot项目提供增强导航功能。
-- **代码编辑**: IntelliSense智能补全、代码片段、快速修复、重构等。
-- **创建新文件**: 支持通过模板创建Java源文件，自动填充类体和包信息。
-- **代码片段**: 丰富的Java代码片段和后缀补全功能，提高编码效率。
+- **Code Navigation**: Utilize Outline view, Projects view, Call Hierarchy, Type Hierarchy, etc. for code navigation.
+- **Symbol Search**: Quickly search for symbols in the workspace or current file.
+- **Peek Definition**: View symbol definitions without leaving the current location.
+- **Go to Definition**: Jump directly to the definition of a symbol.
+- **Go to Super Implementation**: Quickly view class implementations and method overrides.
+- **Folding Regions**: Collapse or expand code segments to optimize code view.
+- **Smart Selection**: Expand or contract selection range based on semantic information.
+- **Semantic Highlighting**: Provide more precise code coloring based on Java language service.
+- **Spring Boot Navigation**: Enhanced navigation features for Spring Boot projects.
+- **Code Editing**: IntelliSense smart completion, code snippets, quick fixes, refactoring, etc.
+- **Creating New Files**: Support for creating Java source files from templates, automatically populating class bodies and package information.
+- **Code Snippets**: Rich Java code snippets and postfix completion features to improve coding efficiency.
 
 <!--
 本Slide将详细介绍VS Code中Java源代码的导航和编辑功能，帮助学员高效地编写和理解Java代码。
@@ -219,12 +219,12 @@ layout: center
 
 # Java: Formatting and Linting
 
-## Java代码格式化与Linting
+## Java Code Formatting and Linting
 
-- **格式化**: 支持Eclipse格式化配置文件，可导入现有配置文件或编辑内置配置文件。
-- **SonarLint**: 实时检测代码中的Bug和安全漏洞，提供详细解释和修复建议。
-- **Checkstyle**: 使用Checkstyle配置检查代码风格，支持实时Linting和批量检查。
-- **便捷访问**: 通过命令或状态栏图标快速访问和配置。
+- **Formatting**: Supports Eclipse formatting configuration files, can import existing configuration files or edit built-in configuration files.
+- **SonarLint**: Real-time detection of bugs and security vulnerabilities in the code, providing detailed explanations and fix suggestions.
+- **Checkstyle**: Check code style using Checkstyle configuration, supporting real-time linting and batch checking.
+- **Easy Access**: Quick access and configuration through commands or status bar icons.
 
 <!--
 本Slide将介绍VS Code中Java代码的格式化（Formatting）和Linting功能，帮助学员保持代码风格一致性并发现潜在问题。
@@ -274,13 +274,13 @@ layout: center
 
 # Java: Build Tools
 
-## VS Code中的Java构建工具
+## Java Build Tools in VS Code
 
-- **Maven支持**: 通过Maven for Java扩展提供Maven项目探索、命令执行、依赖管理、项目生成等功能。
-- **Gradle支持**: 通过Gradle for Java扩展提供Gradle项目导入、任务管理、依赖查看、构建文件编辑等功能。
-- **构建服务器**: Gradle Build Server确保构建任务与命令行一致。
-- **测试委托**: 支持将测试执行委托给Gradle。
-- **其他构建工具**: 提及Bazel等其他构建工具的扩展支持。
+- **Maven Support**: Provides Maven project exploration, command execution, dependency management, project generation, and more through the Maven for Java extension.
+- **Gradle Support**: Provides Gradle project import, task management, dependency viewing, build file editing, and more through the Gradle for Java extension.
+- **Build Server**: Gradle Build Server ensures build tasks are consistent with the command line.
+- **Test Delegation**: Supports delegating test execution to Gradle.
+- **Other Build Tools**: Mentions extension support for other build tools such as Bazel.
 
 <!--
 本Slide将介绍VS Code中对Java构建工具的支持，重点关注Maven和Gradle。
@@ -308,19 +308,19 @@ layout: center
 
 # Java: Run and Debug
 
-## Java应用程序的运行与调试
+## Running and Debugging Java Applications
 
-- **Debugger for Java**: 基于Java Debug Server的轻量级调试器，提供丰富的调试功能。
-- **安装与配置**: 通过Extension Pack for Java安装，支持自动生成和自定义`launch.json`配置。
-- **启动调试**: 多种方式启动调试会话，包括CodeLens、编辑器菜单和F5快捷键。
-- **单文件调试**: 支持调试单个Java文件，无需项目配置。
-- **调试会话输入**: 可配置在集成终端或外部终端进行输入。
-- **断点**: 支持行断点、条件断点、数据断点、日志点和触发断点。
-- **表达式求值**: 在WATCH窗口和Debug Console中评估表达式。
-- **热代码替换 (HCR)**: 调试时无需重启JVM即可替换代码，支持手动、自动和禁用模式。
-- **步进过滤**: 过滤掉不希望单步调试的类或方法。
-- **配置选项**: 丰富的`launch.json`配置选项，用于自定义JVM参数、环境变量等。
-- **故障排除**: 常见问题及解决方案。
+- **Debugger for Java**: A lightweight debugger based on Java Debug Server, providing rich debugging features.
+- **Installation and Configuration**: Installed through Extension Pack for Java, supports automatic generation and customization of `launch.json` configuration.
+- **Starting Debugging**: Multiple ways to start a debugging session, including CodeLens, editor menu, and F5 shortcut.
+- **Single File Debugging**: Supports debugging a single Java file without project configuration.
+- **Debugging Session Input**: Can be configured to accept input in the integrated terminal or external terminal.
+- **Breakpoints**: Supports line breakpoints, conditional breakpoints, data breakpoints, logpoints, and triggered breakpoints.
+- **Expression Evaluation**: Evaluate expressions in the WATCH window and Debug Console.
+- **Hot Code Replace (HCR)**: Replace code during debugging without restarting the JVM, supporting manual, automatic, and disabled modes.
+- **Step Filtering**: Filter out classes or methods you don't want to step through.
+- **Configuration Options**: Rich `launch.json` configuration options for customizing JVM parameters, environment variables, etc.
+- **Troubleshooting**: Common problems and solutions.
 
 <!--
 本Slide将详细介绍VS Code中Java应用程序的运行和调试功能，帮助学员高效地定位和解决代码问题。
@@ -350,18 +350,18 @@ layout: center
 
 # Java: Testing
 
-## Java代码测试
+## Java Code Testing
 
-- **Test Runner for Java**: 轻量级扩展，支持运行和调试Java测试用例。
-- **支持框架**: 支持JUnit 4、JUnit 5和TestNG。
-- **项目设置**: 介绍如何为Maven、Gradle和非托管文件夹配置测试框架。
-- **运行/调试测试**: 通过CodeLens或Testing Explorer快速运行和调试测试用例。
-- **Testing Explorer**: 树形视图展示所有测试用例，并可查看测试结果。
-- **自定义测试配置**: 通过`java.test.config`设置自定义测试运行参数，如`args`、`classPaths`、`env`、`vmArgs`等。
-- **查看测试结果**: 在编辑器装饰和Testing Explorer中查看测试结果，并可跳转到源代码位置。
-- **生成测试**: 支持从主源代码或测试源代码生成测试用例骨架。
-- **测试导航**: 快速在测试和被测试代码之间跳转。
-- **其他测试命令与设置**: 介绍其他测试相关命令和设置。
+- **Test Runner for Java**: A lightweight extension that supports running and debugging Java test cases.
+- **Supported Frameworks**: Supports JUnit 4, JUnit 5, and TestNG.
+- **Project Setup**: Introduction to configuring test frameworks for Maven, Gradle, and non-managed folders.
+- **Running/Debugging Tests**: Quickly run and debug test cases through CodeLens or Testing Explorer.
+- **Testing Explorer**: Tree view showing all test cases and allowing viewing of test results.
+- **Custom Test Configuration**: Customize test run parameters through `java.test.config` settings, such as `args`, `classPaths`, `env`, `vmArgs`, etc.
+- **Viewing Test Results**: View test results in editor decorations and Testing Explorer, with the ability to jump to source code locations.
+- **Generating Tests**: Support for generating test case skeletons from main source code or test source code.
+- **Test Navigation**: Quickly navigate between tests and tested code.
+- **Other Test Commands and Settings**: Introduction to other test-related commands and settings.
 
 <!--
 本Slide将详细介绍VS Code中Java代码的测试功能，帮助学员高效地编写、运行和管理Java测试用例。
@@ -384,13 +384,13 @@ layout: center
 
 # Java: Spring Boot
 
-## VS Code中的Spring Boot开发
+## Spring Boot Development in VS Code
 
-- **扩展支持**: 推荐安装Spring Boot Extension Pack，包含Spring Boot Tools、Spring Initializr、Spring Boot Dashboard。
-- **项目创建**: 通过Spring Initializr快速生成Maven或Gradle的Spring Boot项目。
-- **项目编辑**: 支持在`pom.xml`中添加/移除依赖，提供智能提示。
-- **应用开发**: Spring Boot Tools提供丰富的语言支持，如`application.properties`、`application.yml`和`.java`文件的智能补全、导航。
-- **运行应用**: 通过Spring Boot Dashboard方便地管理和运行Spring Boot应用。
+- **Extension Support**: Recommended to install Spring Boot Extension Pack, including Spring Boot Tools, Spring Initializr, and Spring Boot Dashboard.
+- **Project Creation**: Quickly generate Spring Boot projects with Maven or Gradle through Spring Initializr.
+- **Project Editing**: Supports adding/removing dependencies in `pom.xml`, providing smart suggestions.
+- **Application Development**: Spring Boot Tools provides rich language support, such as smart completion and navigation for `application.properties`, `application.yml`, and `.java` files.
+- **Running Applications**: Conveniently manage and run Spring Boot applications through Spring Boot Dashboard.
 
 <!--
 本Slide将介绍VS Code中对Spring Boot开发的强大支持，以及如何利用相关扩展提升开发效率。
@@ -410,17 +410,17 @@ layout: center
 
 # Java: Extensions
 
-## 扩展你的Java开发体验
+## Extend Your Java Development Experience
 
-- **核心Java开发**: 推荐Extension Pack for Java，包含语言支持、调试器、测试运行器、Maven、项目管理器和IntelliCode。
-- **Spring Boot扩展**: 推荐Spring Boot Extension Pack，包含Spring Boot Tools、Spring Initializr Java Support和Spring Boot Dashboard。
-- **Gradle支持**: 通过Gradle for Java扩展提供Gradle项目支持。
-- **应用服务器**: Community Server Connectors支持Tomcat、Jetty等应用服务器。
-- **MicroProfile / Quarkus**: 提供了相应的扩展包支持。
-- **其他Java IDE键位映射**: 方便从Eclipse或IntelliJ IDEA迁移的用户。
-- **远程开发与容器支持**: 推荐Remote Development、Container Tools、Kubernetes和Live Share等扩展。
-- **Azure集成**: Azure Tools Extension Pack、Azure Repos、Azure IoT Toolkit、Azure Resource Manager Tools等。
-- **搜索更多扩展**: 通过扩展视图搜索更多Java相关扩展。
+- **Core Java Development**: Recommended Extension Pack for Java, including language support, debugger, test runner, Maven, project manager, and IntelliCode.
+- **Spring Boot Extensions**: Recommended Spring Boot Extension Pack, including Spring Boot Tools, Spring Initializr Java Support, and Spring Boot Dashboard.
+- **Gradle Support**: Provides Gradle project support through the Gradle for Java extension.
+- **Application Servers**: Community Server Connectors supports application servers such as Tomcat and Jetty.
+- **MicroProfile / Quarkus**: Provides corresponding extension packs.
+- **Other Java IDE Keymaps**: Convenient for users migrating from Eclipse or IntelliJ IDEA.
+- **Remote Development and Container Support**: Recommended extensions include Remote Development, Container Tools, Kubernetes, and Live Share.
+- **Azure Integration**: Azure Tools Extension Pack, Azure Repos, Azure IoT Toolkit, Azure Resource Manager Tools, etc.
+- **Search for More Extensions**: Search for more Java-related extensions through the extension view.
 
 <!--
 本Slide将介绍VS Code中丰富的Java扩展生态系统，帮助学员根据需求选择合适的扩展来增强开发体验。
@@ -444,17 +444,17 @@ layout: center
 
 # Java: FAQ
 
-## Java开发常见问题解答
+## Frequently Asked Questions for Java Development
 
-- **开源性**: 大部分Java扩展都是开源的，可在GitHub上找到对应仓库。
-- **未来功能**: 持续增加重构和Linting功能，提升性能，并欢迎社区贡献。
-- **键位映射**: 支持从其他IDE（如IntelliJ IDEA、Eclipse）导入键位映射。
-- **最新进展**: 可通过Java at Microsoft博客和扩展包发布说明获取最新信息。
-- **新Java版本支持**: 支持Java 22及更高版本，并提供预览功能配置方法。
-- **企业代理**: 配置`java.jdt.ls.vmargs`以支持企业代理环境。
-- **Visual Studio支持**: 目前无计划将Java支持扩展到Visual Studio。
-- **多语言显示**: 部分扩展支持中文显示，并欢迎贡献其他语言支持。
-- **故障排除与贡献**: 提供Java Language Server的故障排除指南和贡献方式。
+- **Open Source**: Most Java extensions are open source and can be found in corresponding GitHub repositories.
+- **Future Features**: Continuously adding refactoring and linting features, improving performance, and welcoming community contributions.
+- **Keymaps**: Supports importing keymaps from other IDEs (such as IntelliJ IDEA, Eclipse).
+- **Latest Progress**: Get the latest information through the Java at Microsoft blog and extension pack release notes.
+- **New Java Version Support**: Supports Java 22 and higher, and provides configuration methods for preview features.
+- **Enterprise Proxy**: Configure `java.jdt.ls.vmargs` to support enterprise proxy environments.
+- **Visual Studio Support**: Currently no plans to extend Java support to Visual Studio.
+- **Multi-language Display**: Some extensions support Chinese display, and contributions for other language support are welcome.
+- **Troubleshooting and Contributing**: Provides troubleshooting guide and contribution methods for the Java Language Server.
 
 <!--
 本Slide将总结VS Code中Java开发的常见问题，帮助学员解决实际操作中可能遇到的困惑。
@@ -476,7 +476,7 @@ layout: center
 
 # Reference
 
-## 深入了解VS Code配置
+## Deep Dive into VS Code Configuration
 
 ---
 
@@ -538,17 +538,17 @@ layout: center
 
 # Reference: Substitution Variables
 
-## VS Code中的变量替换
+## Variable Substitution in VS Code
 
-- **用途**: 在调试和任务配置文件中支持变量替换，以及部分设置。
-- **语法**: 使用`${variableName}`语法进行变量替换。
-- **预定义变量**: 提供了多种预定义变量，如`${userHome}`、`${workspaceFolder}`、`${file}`等，涵盖文件路径、工作区信息、行号、选中文本等。
-- **环境变量**: 通过`${env:Name}`引用环境变量。
-- **配置变量**: 通过`${config:Name}`引用VS Code设置。
-- **命令变量**: 通过`${command:commandID}`执行VS Code命令并获取其字符串结果。
-- **输入变量**: 通过`${input:variableID}`定义交互式输入，支持`promptString`、`pickString`和`command`类型。
-- **变量作用域**: 变量作用域默认为当前文件夹，多根工作区可通过`${workspaceFolder:FolderName}`引用其他根文件夹。
-- **替换过程**: 变量替换分两步进行，确保变量之间不相互依赖。
+- **Purpose**: Supports variable substitution in debugging and task configuration files, as well as some settings.
+- **Syntax**: Uses `${variableName}` syntax for variable substitution.
+- **Predefined Variables**: Provides various predefined variables, such as `${userHome}`, `${workspaceFolder}`, `${file}`, etc., covering file paths, workspace information, line numbers, selected text, and more.
+- **Environment Variables**: Reference environment variables through `${env:Name}`.
+- **Configuration Variables**: Reference VS Code settings through `${config:Name}`.
+- **Command Variables**: Execute VS Code commands and get their string results through `${command:commandID}`.
+- **Input Variables**: Define interactive inputs through `${input:variableID}`, supporting `promptString`, `pickString`, and `command` types.
+- **Variable Scope**: Variable scope defaults to the current folder; in multi-root workspaces, other root folders can be referenced through `${workspaceFolder:FolderName}`.
+- **Substitution Process**: Variable substitution is done in two steps, ensuring variables do not depend on each other.
 
 <!--
 本Slide将详细介绍VS Code中变量替换的功能，以及如何在调试、任务配置和设置中使用它们。
