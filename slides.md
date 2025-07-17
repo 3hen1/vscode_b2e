@@ -154,7 +154,7 @@ IDE 从早期的命令行工具集合演变而来，经历了多个阶段：
 title: survey
 layout: image-left-fixed
 level: 2
-image: images/stackoverflow-dev-survey-2024-technology-most-popular-technologies-new-collab-tools-social.png
+image: /images/stackoverflow-dev-survey-2024-technology-most-popular-technologies-new-collab-tools-social.png
 transition: slide-left | slide-right
 ---
 
